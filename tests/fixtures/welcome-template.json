@@ -1,0 +1,51 @@
+[
+  {
+    "name": "plain text and line breaks",
+    "text": "欢迎使用\n<你好> & 世界",
+    "values": {},
+    "limit": 1800,
+    "expected": "欢迎使用\n<你好> & 世界"
+  },
+  {
+    "name": "repeated tags and surrounding spaces",
+    "text": "{{ nickname }}，你好 {{nickname}}！{{username}}",
+    "values": { "nickname": "小林", "username": "@lin_demo" },
+    "limit": 1800,
+    "expected": "小林，你好 小林！@lin_demo"
+  },
+  {
+    "name": "replacement values are never interpreted again",
+    "text": "你好 {{nickname}} · {{date}}",
+    "values": { "nickname": "{{date}} <b>&", "date": "2026-11-16" },
+    "limit": 1800,
+    "expected": "你好 {{date}} <b>& · 2026-11-16"
+  },
+  {
+    "name": "legacy unknown tag remains literal at runtime",
+    "text": "{{unknown}} {{nickname}}",
+    "values": { "nickname": "小林" },
+    "limit": 1800,
+    "expected": "{{unknown}} 小林"
+  },
+  {
+    "name": "legacy malformed tag remains literal at runtime",
+    "text": "{{{nickname}}}",
+    "values": { "nickname": "小林" },
+    "limit": 1800,
+    "expected": "{{{nickname}}}"
+  },
+  {
+    "name": "Unicode expansion stops at field limit",
+    "text": "{{nickname}}{{nickname}}",
+    "values": { "nickname": "😀😀😀😀" },
+    "limit": 5,
+    "expected": "😀😀😀😀…"
+  },
+  {
+    "name": "exact limit is not shortened",
+    "text": "{{nickname}}",
+    "values": { "nickname": "😀小林" },
+    "limit": 3,
+    "expected": "😀小林"
+  }
+]

@@ -1,0 +1,112 @@
+CREATE TABLE IF NOT EXISTS ts_commerce_config (
+ id TINYINT UNSIGNED PRIMARY KEY,
+ config JSON NOT NULL,
+ secret TEXT NULL,
+ updated_at DATETIME NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS ts_wallets (
+ id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ user_id BIGINT UNSIGNED NOT NULL UNIQUE,
+ balance BIGINT NOT NULL DEFAULT 0,
+ updated_at DATETIME NOT NULL,
+ CONSTRAINT ck_wallet_positive CHECK (balance >= 0)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS ts_wallet_entries (
+ id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ user_id BIGINT UNSIGNED NOT NULL,
+ amount BIGINT NOT NULL,
+ balance_after BIGINT NOT NULL,
+ kind VARCHAR(32) NOT NULL,
+ business_key VARCHAR(100) CHARACTER SET ascii COLLATE ascii_bin NOT NULL UNIQUE,
+ note VARCHAR(300) NOT NULL DEFAULT '',
+ created_at DATETIME NOT NULL,
+ KEY ix_user_entries (user_id,id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS ts_recharges (
+ id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ user_id BIGINT UNSIGNED NOT NULL,
+ request_key VARCHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+ method VARCHAR(16) NOT NULL,
+ amount BIGINT NOT NULL,
+ receive_address VARCHAR(34) CHARACTER SET ascii COLLATE ascii_bin NULL,
+ txid VARCHAR(64) CHARACTER SET ascii COLLATE ascii_bin NULL UNIQUE,
+ status VARCHAR(20) NOT NULL DEFAULT 'pending',
+ proof VARCHAR(500) NOT NULL DEFAULT '',
+ review_note VARCHAR(300) NOT NULL DEFAULT '',
+ reviewer_id BIGINT UNSIGNED NULL,
+ created_at DATETIME NOT NULL,
+ expires_at DATETIME NOT NULL,
+ paid_at DATETIME NULL,
+ UNIQUE KEY uq_recharge_request (user_id,request_key),
+ UNIQUE KEY uq_chain_amount (receive_address,amount),
+ KEY ix_recharge_pending (status,method,expires_at),
+ KEY ix_recharge_user (user_id,id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS ts_reward_days (
+ day DATE PRIMARY KEY,
+ amount BIGINT NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS ts_reward_claims (
+ id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ user_id BIGINT UNSIGNED NOT NULL,
+ day DATE NOT NULL,
+ amount BIGINT NOT NULL,
+ source VARCHAR(12) NOT NULL,
+ created_at DATETIME NOT NULL,
+ UNIQUE KEY uq_reward_user_day (user_id,day)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS ts_ad_slots (
+ id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ name VARCHAR(80) NOT NULL,
+ kind VARCHAR(20) NOT NULL,
+ description VARCHAR(500) NOT NULL DEFAULT '',
+ price BIGINT NOT NULL,
+ duration_days INT UNSIGNED NOT NULL DEFAULT 7,
+ capacity INT UNSIGNED NOT NULL DEFAULT 1,
+ target_chat VARCHAR(40) NOT NULL DEFAULT '',
+ enabled TINYINT UNSIGNED NOT NULL DEFAULT 0,
+ created_at DATETIME NOT NULL,
+ updated_at DATETIME NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS ts_ad_orders (
+ id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ user_id BIGINT UNSIGNED NOT NULL,
+ slot_id BIGINT UNSIGNED NOT NULL,
+ request_key VARCHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+ slot_name VARCHAR(80) NOT NULL,
+ kind VARCHAR(20) NOT NULL,
+ price BIGINT NOT NULL,
+ duration_days INT UNSIGNED NOT NULL,
+ target_chat VARCHAR(40) NOT NULL DEFAULT '',
+ title VARCHAR(80) NOT NULL,
+ url VARCHAR(500) NOT NULL,
+ content VARCHAR(500) NOT NULL DEFAULT '',
+ keyword VARCHAR(80) NOT NULL DEFAULT '',
+ status VARCHAR(24) NOT NULL DEFAULT 'pending',
+ review_note VARCHAR(300) NOT NULL DEFAULT '',
+ reviewer_id BIGINT UNSIGNED NULL,
+ created_at DATETIME NOT NULL,
+ starts_at DATETIME NULL,
+ ends_at DATETIME NULL,
+ UNIQUE KEY uq_ad_request (user_id,request_key),
+ KEY ix_ad_live (status,kind,ends_at),
+ KEY ix_ad_user (user_id,id),
+ KEY ix_ad_slot (slot_id,status)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS ts_ad_deliveries (
+ id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ order_id BIGINT UNSIGNED NOT NULL UNIQUE,
+ state VARCHAR(24) NOT NULL DEFAULT 'queued',
+ bot_id BIGINT UNSIGNED NOT NULL,
+ message_id BIGINT NULL,
+ error VARCHAR(300) NOT NULL DEFAULT '',
+ updated_at DATETIME NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+CREATE TABLE IF NOT EXISTS ts_bot_login_codes (
+ id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+ user_id BIGINT UNSIGNED NOT NULL,
+ code_hash CHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL UNIQUE,
+ expires_at DATETIME NOT NULL,
+ used_at DATETIME NULL,
+ KEY ix_login_user (user_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

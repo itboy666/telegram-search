@@ -1,0 +1,23 @@
+[Unit]
+Description=StarIndex web and Telegram workers
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=starindex
+Group=starindex
+WorkingDirectory=/opt/starindex
+ExecStart=/opt/starindex/starindex all --root /opt/starindex --addr 127.0.0.1:8088
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/starindex
+
+[Install]
+WantedBy=multi-user.target

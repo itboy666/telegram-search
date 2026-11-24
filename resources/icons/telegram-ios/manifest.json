@@ -1,0 +1,2002 @@
+{
+    "name": "tgiosicons",
+    "title": "Telegram iOS Icons",
+    "synced_at": "2026-11-16T01:57:11+00:00",
+    "icons": [
+        {
+            "id": "6028346797368283073",
+            "emoji": "✈️",
+            "source_sha256": "10202d5863109b71d88c9cce089591e7d2c1bcdc217bd0615411a1d35a078f29"
+        },
+        {
+            "id": "5775870512127283512",
+            "emoji": "🍏",
+            "source_sha256": "ecff21d1885c9bf4f71dbfb613d8f9a631927e8d39b924be235d55c4942e96f9"
+        },
+        {
+            "id": "6028338546736107668",
+            "emoji": "⭐️",
+            "source_sha256": "3327cd687f92e3094b6f39ac8e20671cb5bd4b4b6ca6a1bf80417e7ad87eb98c"
+        },
+        {
+            "id": "5767199127775481841",
+            "emoji": "⭐️",
+            "source_sha256": "1badd60b2cf794a4fb511f10c051a2ebff2dad0d44dff5c97e92210da8b67682"
+        },
+        {
+            "id": "5773677501825945508",
+            "emoji": "🎁",
+            "source_sha256": "d9d01b75c79748b2d2afca7398ff53e425468d880405f84d1eb6148697bb824f"
+        },
+        {
+            "id": "6035162669948867129",
+            "emoji": "🔣",
+            "source_sha256": "2db66f8f8e0284b3ff3ae08328e8a8d330c01078517afe4055d332f32df5125d"
+        },
+        {
+            "id": "5942734685976138521",
+            "emoji": "🖥",
+            "source_sha256": "20ece6b0f06051bb4138230cabc43a261aad881bd9c78d3fdf8628a91f5ccf25"
+        },
+        {
+            "id": "5904258298764334001",
+            "emoji": "⚙️",
+            "source_sha256": "61637dd104cb4535170ef0ed8a02dedede7b041230915f8a9c8091b30983d0b2"
+        },
+        {
+            "id": "6032742198179532882",
+            "emoji": "⚙",
+            "source_sha256": "f80332a8f8d90ca18d14fc271889edcabc2d14635f915f1f3331a45618f19bcc"
+        },
+        {
+            "id": "5850309953293653168",
+            "emoji": "⚙️",
+            "source_sha256": "fe28d6b8d286915730ed4254fb81bb5ccef835fb588e9f3ba97ddeb7250e9e99"
+        },
+        {
+            "id": "5850332476102153487",
+            "emoji": "⚙️",
+            "source_sha256": "e28dc1102ac5ba73bff9b17f9df2b8ac457186cc99a987162935586c3b270d4e"
+        },
+        {
+            "id": "5850392884817172292",
+            "emoji": "⚙️",
+            "source_sha256": "a31bc81bb0b2cf0196dd4d4eac5671ead11597234940aabac9bfcfbadb5820f4"
+        },
+        {
+            "id": "5850224242926295392",
+            "emoji": "⚙️",
+            "source_sha256": "68364a5727d6e7e916016a5a8567e9a8928354b2001522acacd40ef4c7f57935"
+        },
+        {
+            "id": "5924722061288150929",
+            "emoji": "⚙️",
+            "source_sha256": "5b05e5045d3f94f7d19b438bbc36e9dba3fdcdab184958318099265251c48a78"
+        },
+        {
+            "id": "5776424837786374634",
+            "emoji": "🎛",
+            "source_sha256": "b12b86cb3eef2c90f16f4a7c937d88f9ff1a5e20ab5bc2e4217cf46b7753a90a"
+        },
+        {
+            "id": "5771449289972650710",
+            "emoji": "🎛",
+            "source_sha256": "fef8b278ede83ebf0e4fa13ea0190804096fb3bb77ac8305d985bb63d563218e"
+        },
+        {
+            "id": "5895519358871932592",
+            "emoji": "📰",
+            "source_sha256": "b0ac22cefd704aff230895f5154ffb48d7f619818cbc1532bdda7e854a1455bf"
+        },
+        {
+            "id": "5893444447286334441",
+            "emoji": "📰",
+            "source_sha256": "da933ba34c5db57220d76ec973430104e6e93bf2ed750b0e30489c7866256eba"
+        },
+        {
+            "id": "5886437972647088483",
+            "emoji": "📰",
+            "source_sha256": "a8137da7ae9cd865b81f723a134dfd5d8cfc520270dc9401282f238c5dead350"
+        },
+        {
+            "id": "5893236738372932548",
+            "emoji": "📰",
+            "source_sha256": "100448709efeec8a136248cd42ef2ff86dcea27cc9bf7641f49173c2615ec53a"
+        },
+        {
+            "id": "5893057118545646106",
+            "emoji": "📰",
+            "source_sha256": "3897e332f082998dd044ea90f7be75f48949299ac0e3d2b1861b83c103ab3251"
+        },
+        {
+            "id": "5920046907782074235",
+            "emoji": "📝",
+            "source_sha256": "39f40f051d113c84c19f56eb19155edad66691a41dcca6d8f5b947b3fb6ef335"
+        },
+        {
+            "id": "5922693616953725714",
+            "emoji": "📝",
+            "source_sha256": "415bdc8c92563ef1d0bfc18126ee5022b7aee899d386f044878a42f11ffc3d1e"
+        },
+        {
+            "id": "5766994197705921104",
+            "emoji": "🗂",
+            "source_sha256": "04a70c51ca4d991be6d489ee63215726f093fc8873a96ad04a84d26bc7fb7d23"
+        },
+        {
+            "id": "5893316448670978477",
+            "emoji": "↔️",
+            "source_sha256": "2b0d121668771e1cd736aba6858974dc677f77b7721830a336cff19833712f7e"
+        },
+        {
+            "id": "5895534923833413814",
+            "emoji": "↔️",
+            "source_sha256": "9dfc8e44cbc08afdec9d22b8d32f1e442466e5d79cc962d12aba8ccae4f40f63"
+        },
+        {
+            "id": "5960671702059848143",
+            "emoji": "⬅️",
+            "source_sha256": "3657a5b80fc553d4f698dabd87663d7fe0178d028897e62b965375f0a4db9a6d"
+        },
+        {
+            "id": "6030657343744644592",
+            "emoji": "🔁",
+            "source_sha256": "cfb0410047579840a8947bd1e18c6df39646decc288330f094b9f36c40c37abb"
+        },
+        {
+            "id": "5938437708635443119",
+            "emoji": "⏫",
+            "source_sha256": "6f4ac57754c94f0c132c263da3fdea2fecdd21abb73f8d302722a30552629763"
+        },
+        {
+            "id": "6039779802741739617",
+            "emoji": "✏️",
+            "source_sha256": "9c29207fa105c5bfc85a0464bb67daadac3205e1d804f3c9d083336d076c8e72"
+        },
+        {
+            "id": "6039614175917903752",
+            "emoji": "✏",
+            "source_sha256": "51a3b7181d6ffb3dd4135681ebfed9ffc089a8c90f3200061250febc34ab0955"
+        },
+        {
+            "id": "6030757850274336631",
+            "emoji": "❌",
+            "source_sha256": "8535dcdae2cbee911c00046151805e286ac7be56af8e98ebdd0b072ccfa32b3c"
+        },
+        {
+            "id": "6039404727542747508",
+            "emoji": "⌨",
+            "source_sha256": "ce7dd23a014022699d33eee5fdc5fd6c374487f2fc0b0935e85324b756fd690b"
+        },
+        {
+            "id": "6039451237743595514",
+            "emoji": "📎",
+            "source_sha256": "8f0acdccc60e01dc50ea9d3df7f00b43d22c01b8867de2272975328886ff56f8"
+        },
+        {
+            "id": "5962952497197748583",
+            "emoji": "🔧",
+            "source_sha256": "27d707c685807d2ee15bafc02fb6c8c52bd6044b7600102e9763ed74e769beeb"
+        },
+        {
+            "id": "5940433880585605708",
+            "emoji": "🔨",
+            "source_sha256": "a48d178a042036e92eb4bb829c7839608a6bcf2420551c59c7d25a44ab1ed780"
+        },
+        {
+            "id": "6035130900075777681",
+            "emoji": "🚪",
+            "source_sha256": "c52814c91c65c50d89fb35d5bdd202977493bd505673b288fb202ff70e7c8f83"
+        },
+        {
+            "id": "6032850693348399258",
+            "emoji": "🔎",
+            "source_sha256": "eddb91145d14d7534cad748e61cc558d21db66a7a569c2c152eb48a4d2925133"
+        },
+        {
+            "id": "5888620056551625531",
+            "emoji": "🏷",
+            "source_sha256": "a902c710a988ca35be8e5aa3245d35367358ff90bd78f1e6918985eb24a005c2"
+        },
+        {
+            "id": "5886285355279193209",
+            "emoji": "🏷",
+            "source_sha256": "2f35432f5bf0f33bb6d4a68e0b1ffab0d0967be8c282cd094008360594c1d5b8"
+        },
+        {
+            "id": "5884050696679986441",
+            "emoji": "🏷",
+            "source_sha256": "72ffbdb434bce41d7795922deacfa5ece151914e9c3b068cdf4e72a144e8bdce"
+        },
+        {
+            "id": "5884090188904272855",
+            "emoji": "🏷",
+            "source_sha256": "3db5c3e96e1012d8929b9a371fb201ae5ad8deab8ed3649f401b1ede0a02a9ed"
+        },
+        {
+            "id": "5886473311637999700",
+            "emoji": "🏷",
+            "source_sha256": "e00714eb0f2910cbb4f156fc44b70e03f96d04019b5874c390ed72bff49a354b"
+        },
+        {
+            "id": "5888880224195581055",
+            "emoji": "🏷",
+            "source_sha256": "96ea05dc88fab1e5df27824247f22d49ef03305bed3117f090a651e55b51cdff"
+        },
+        {
+            "id": "5884491244360438851",
+            "emoji": "🏷",
+            "source_sha256": "13b869e1e959a05c0184f8ed255f15fbdd13a2884679e14920843244d5f78755"
+        },
+        {
+            "id": "5895507195524550741",
+            "emoji": "↩️",
+            "source_sha256": "0dbfe7aec9a2d78be1c80503605027a59b14e4e3675210456b1fcf8f227e90bc"
+        },
+        {
+            "id": "6039539366177541657",
+            "emoji": "⬅️",
+            "source_sha256": "7e305efa0d31c962845f202dc5fcd0923fe9ca9f8fd2af035ac377c0fd128652"
+        },
+        {
+            "id": "5895383238473421210",
+            "emoji": "➡️",
+            "source_sha256": "86a4653269a0913095742adba7ee055bf4adfc5a277c62a198d1b53a87c25a97"
+        },
+        {
+            "id": "6037622221625626773",
+            "emoji": "➡️",
+            "source_sha256": "68f439adb4ed7d2dbd34e7af2d95fa613240341685b66474b1c68ae23fedf579"
+        },
+        {
+            "id": "6039391078136681499",
+            "emoji": "📺",
+            "source_sha256": "0f8a8f0da4eb3558822337c8067a58bc0a312217ab5a68db2ec18fcb0784b94c"
+        },
+        {
+            "id": "6028171274939797252",
+            "emoji": "🔗",
+            "source_sha256": "115a4804f79eb692124253823c35810ea2d8782e3d5c60d90888cb017b7f7fd6"
+        },
+        {
+            "id": "6030864215139422409",
+            "emoji": "🔗",
+            "source_sha256": "972f512fd19e98a4176423cca87a82a4453e33e0c7f73d3c59389b4b212e5884"
+        },
+        {
+            "id": "5776078972659962594",
+            "emoji": "🔗",
+            "source_sha256": "6490f786cedd4e91c39740b54de9be337a9d32254227ca19ded3a49d1297ff25"
+        },
+        {
+            "id": "5778455936410588193",
+            "emoji": "🔗",
+            "source_sha256": "4da14b071ce884a79fc213732b0d5c4067a600efeed3c37693002828de49fa6c"
+        },
+        {
+            "id": "5895364284782743985",
+            "emoji": "🔗",
+            "source_sha256": "d8158d9c163ecf96542f689f4bb614392bebf30b7f77c70a9160a664afda08f4"
+        },
+        {
+            "id": "5769289093221454192",
+            "emoji": "🔗",
+            "source_sha256": "fbee124af0610bf13bbcf7fb7af83c9dd6bdf2c1be4d04ea5d60199c9724e545"
+        },
+        {
+            "id": "5766902139376898645",
+            "emoji": "🔗",
+            "source_sha256": "62808c87c663a2d0f9bb9f4fe000d19173a1da6084cdeda6a14bc9cd26662750"
+        },
+        {
+            "id": "6032924188828767321",
+            "emoji": "➕",
+            "source_sha256": "a815369027e1f24cee49e6c6802da9a211748fd660f720e0df57ac54c720bc07"
+        },
+        {
+            "id": "6028435952299413210",
+            "emoji": "ℹ",
+            "source_sha256": "b783411930930996bd6e86eb18b4c334c58896865ed72faa29ecda502629961f"
+        },
+        {
+            "id": "6030848053177486888",
+            "emoji": "❓",
+            "source_sha256": "f753646505797a616ba0797a71adc57ed1accd0c09f77eb9ec5c419c8dc8e5e8"
+        },
+        {
+            "id": "6030563507299160824",
+            "emoji": "❗️",
+            "source_sha256": "ecabff7dcc08bf5fec2dc6edaea1bbec7dc485fdb30e89d5bb0ca0d1360d831f"
+        },
+        {
+            "id": "5773626993010546707",
+            "emoji": "▶️",
+            "source_sha256": "08ee40f4f37ef976061562b496eb49775f98419cf4a9468b88600ca7b0046dcc"
+        },
+        {
+            "id": "5850346984501680054",
+            "emoji": "▶️",
+            "source_sha256": "df1488bdc1ae225eb363c0626e83bc4b0b65001dc66a633183c107aeecd2ca10"
+        },
+        {
+            "id": "5774077015388852135",
+            "emoji": "❌",
+            "source_sha256": "051fc61e88b1f7d62ce2515a9be41cd7c2c0ba4202ec0b4f3cff114f1f2d34eb"
+        },
+        {
+            "id": "5774022692642492953",
+            "emoji": "✅",
+            "source_sha256": "106afc0bca4f023ce02bcb47de61d61aebcff5c9d86364cf53dc145bebd66270"
+        },
+        {
+            "id": "6028205772117118673",
+            "emoji": "⬆️",
+            "source_sha256": "bc18b336ba28c79a42685073a562ad59e556bea1529ee5239cf1954d7ab241a8"
+        },
+        {
+            "id": "6037496202990194718",
+            "emoji": "🔓",
+            "source_sha256": "c41c047c1db945b1b9d8e203153f03fc79c19edb13d7cf43f94514d49b1d7eae"
+        },
+        {
+            "id": "6037249452824072506",
+            "emoji": "🔒",
+            "source_sha256": "ff54b6d6baa45a802ea03056d7480ecea01dd045126adaa1442f9cbc15b7d8f8"
+        },
+        {
+            "id": "6030466823290360017",
+            "emoji": "🖼",
+            "source_sha256": "d32c566654b5d47f4a632b6ad93e96504bb2af3568b4fd363444345cf68a5568"
+        },
+        {
+            "id": "6035128606563241721",
+            "emoji": "🖼",
+            "source_sha256": "c83d10c53ae73becce7d693f2baadd1f21d63395f15ea1e020f631c35efd1818"
+        },
+        {
+            "id": "6030400221232501136",
+            "emoji": "🤖",
+            "source_sha256": "c879c28e4e07ec2a43985394d67b8b3e95c430aa00c3e6a6c608b462e79fd668"
+        },
+        {
+            "id": "6030425896546996257",
+            "emoji": "⭐️",
+            "source_sha256": "c7f08e17cae67f9258fe0d7e8130892ef8511a2cb9ad5415a155f4acaa571621"
+        },
+        {
+            "id": "6030680867280522811",
+            "emoji": "⭐️",
+            "source_sha256": "7fa90940cd4566eb4b9c85c45bbffb6ddf90f3dcef1526cf17b14213bc056178"
+        },
+        {
+            "id": "6037475557082403885",
+            "emoji": "📁",
+            "source_sha256": "9b0cbaeedc4801dbc734fda131b08413691cbbb2bbaaa4baf5c48a825f9f94dd"
+        },
+        {
+            "id": "5904219717073114606",
+            "emoji": "📁",
+            "source_sha256": "4468c4bb13d53cbbbc2a4e16fc0bca83bcb8f28b07de082a98b7f029f18ca5a0"
+        },
+        {
+            "id": "6034969813032374911",
+            "emoji": "📄",
+            "source_sha256": "16fb0e6b6db93b5cd6dcf9097d1a73846ea4489527279e4290bf0a78358fe5a3"
+        },
+        {
+            "id": "6039522349517115015",
+            "emoji": "🗑",
+            "source_sha256": "17ab231be38cfe5104de10651db713ea14e34253181c67d79c51f3aca4666092"
+        },
+        {
+            "id": "6037364759811068375",
+            "emoji": "🎶",
+            "source_sha256": "bd48728efc6f95a23f18645d315f4ef1f884da78f9cb3e7afe8e49f7ccae6e3f"
+        },
+        {
+            "id": "6037460610596212193",
+            "emoji": "🎶",
+            "source_sha256": "e06902b62c516e7452fc2e91b19bbc4db763d1119c19195df236f8c0354252e8"
+        },
+        {
+            "id": "6037397706505195857",
+            "emoji": "👁",
+            "source_sha256": "05f2b5888276dd6b1df10b0476962232ea50be90b31e71787ac61001a9bba393"
+        },
+        {
+            "id": "6037243349675544634",
+            "emoji": "👁",
+            "source_sha256": "e653ff65be9cea89e29b3d768fcb1f1a29722d0a4bfad4b6aca653210911a143"
+        },
+        {
+            "id": "5884097155341226387",
+            "emoji": "👁",
+            "source_sha256": "ce0ceb7da7e6f4c17a75ece62ca3a55a978e5ad74043c38964918c85588d9fe0"
+        },
+        {
+            "id": "5935757052042285202",
+            "emoji": "👁",
+            "source_sha256": "fd968e1a32036056ccb18150d6adcc907cd31c845a3acbca38441478bde42d08"
+        },
+        {
+            "id": "6037157012242960559",
+            "emoji": "⬇️",
+            "source_sha256": "5ea07e3c01398e9db67b437fed69e8ef019686ce789f0f779ad3a200b821ee28"
+        },
+        {
+            "id": "5884218166044791498",
+            "emoji": "⬇️",
+            "source_sha256": "2c2a95357caa3d636ebde1618868bd3da9d03db3a0777cecf038845775b2537e"
+        },
+        {
+            "id": "6039802767931871481",
+            "emoji": "⬇️",
+            "source_sha256": "dd0b3e853e6b03a9e0345edf9456512ce3aee1420494def84afd6140f38ad826"
+        },
+        {
+            "id": "6028115612163641653",
+            "emoji": "☁",
+            "source_sha256": "27ddd85e9b2cc92a113ffcee16dfbfc5dc7d2c66bc016dddf0b631604acc1b0b"
+        },
+        {
+            "id": "6032745346390560408",
+            "emoji": "⬇️",
+            "source_sha256": "73e2fa85d69034c9343d4b2ae3eeab6cc028a4571659a26ad7d6a28410f50393"
+        },
+        {
+            "id": "5963103826075456248",
+            "emoji": "⬆️",
+            "source_sha256": "0d7cf8a6bf4cea830fe8b01830f1c004db4196a9adb88fd788f29214a0c1207e"
+        },
+        {
+            "id": "5963087934696459905",
+            "emoji": "⬇️",
+            "source_sha256": "a8b1b61f6dcf18f30909d385c0050002df3694577ef54dd4d7be1da80a5bb923"
+        },
+        {
+            "id": "6039391666547201160",
+            "emoji": "⬆️",
+            "source_sha256": "458723f46e1e0e3859f131313b49918905c72fda8837edeb292e3349e06b1f11"
+        },
+        {
+            "id": "6039573425268201570",
+            "emoji": "📤",
+            "source_sha256": "ad2f7269f4142b9a065563a33413dc279a265ed90ebb38a45591b90287a856bc"
+        },
+        {
+            "id": "5776288820467077551",
+            "emoji": "⬆️",
+            "source_sha256": "6f89a759ad472f88d44aab6ffde523266300bf85eb8b547ef48895390d833057"
+        },
+        {
+            "id": "6030537007350944596",
+            "emoji": "🛡",
+            "source_sha256": "050194dc72fe6c19573940651a102a7e865110e2475b632382637233c7ba1e7c"
+        },
+        {
+            "id": "6032636795387121097",
+            "emoji": "🛡",
+            "source_sha256": "dadff7864b2708f32a8c80f843be3392c353bac62a9e8fc9caf73ef58493e5de"
+        },
+        {
+            "id": "6030445631921721471",
+            "emoji": "🛡",
+            "source_sha256": "4c624f86efd7fb5762114590b620f7c7404b934d9ddad8ed9558c220ab4f41c9"
+        },
+        {
+            "id": "6039630677182254664",
+            "emoji": "📂",
+            "source_sha256": "1423043a20f650458ee8f102c1ff8c75d474c5150a86f1b22b9c4ec367cbfb7b"
+        },
+        {
+            "id": "6039800856671424701",
+            "emoji": "📂",
+            "source_sha256": "e0a4038159999c5d0567fb8b97939651ae20aff29735a368696259d6ad205b54"
+        },
+        {
+            "id": "6037373985400819577",
+            "emoji": "📂",
+            "source_sha256": "be316be78c91a1f8ff830c3b74c21b93022dd3f76d4023aa95a9858ca7668968"
+        },
+        {
+            "id": "6039348811363520645",
+            "emoji": "📂",
+            "source_sha256": "d89028aae06e3e4d918f7118bd4a997a0abbe1adad7f77c9d5fc28b95b6dc87f"
+        },
+        {
+            "id": "6041730074376410123",
+            "emoji": "📥",
+            "source_sha256": "305a8b3ce2f01b1d2c61d20ca9744bb3a0f80d5d17e1132263a8ae78af2dd657"
+        },
+        {
+            "id": "6039400853482246862",
+            "emoji": "📥",
+            "source_sha256": "ca6e33c607b6a1a066c251f258749e833507cb38d8398dd1972df6e07b614757"
+        },
+        {
+            "id": "6039420807900303010",
+            "emoji": "📥",
+            "source_sha256": "b4c6e478b34859a06e6f6889e0a487e2ac1aaa081e81e40dcd8320848df708c7"
+        },
+        {
+            "id": "6043874504302661409",
+            "emoji": "📤",
+            "source_sha256": "9b56aaa79b66f9f74ab83bdba7239e67865156183fd1cd4a9ba47e6b5530338c"
+        },
+        {
+            "id": "6021418126061605425",
+            "emoji": "📢",
+            "source_sha256": "84023811dbdecab7f2d90f0f900563fbdab02f9176ab861a584f3f46b988cb78"
+        },
+        {
+            "id": "6021681257232994766",
+            "emoji": "📢",
+            "source_sha256": "4f0848f0b51fb56c1c06f55bae8ef539f8258b9be09955a1fd2b0f4e0b94845b"
+        },
+        {
+            "id": "6039381989985882045",
+            "emoji": "📢",
+            "source_sha256": "3416ceb8b6fe953544c7bcd222d45093142de2481622561dff57fd807fbcca48"
+        },
+        {
+            "id": "6039450962865688331",
+            "emoji": "📣",
+            "source_sha256": "bf367390bff20adc22c32820ef83b9aae29dcfd845369b384ab6c2df85cfa64c"
+        },
+        {
+            "id": "6039422865189638057",
+            "emoji": "📣",
+            "source_sha256": "9cab2ab882bd1513c2da9acf8727179bd9dc1f4a377655f044667f7e7f6c0d3b"
+        },
+        {
+            "id": "6039454987250044861",
+            "emoji": "🔊",
+            "source_sha256": "a81439925e7397ddff4aef3a92bb050b07796ff297a7ecad7b8954575756058c"
+        },
+        {
+            "id": "6039505337151655702",
+            "emoji": "🔇",
+            "source_sha256": "f2828a55fe8de0829dc8d4a881b30f2abf418929a7bb1228dcf2d45a0ee2c0b8"
+        },
+        {
+            "id": "6039853100653612987",
+            "emoji": "🔈",
+            "source_sha256": "bfc37fd393c46cea84364e880ad26c15d758143c487633cdc4ce0c988c7419bd"
+        },
+        {
+            "id": "6039486778597970865",
+            "emoji": "🔔",
+            "source_sha256": "7beabfbc61bbad4d03fc739d7beab1f3226add194f6bf166e27942c041f43628"
+        },
+        {
+            "id": "6039569594157371705",
+            "emoji": "🔕",
+            "source_sha256": "f5cbb5ba909b1081f460ceae7bbe4bc01ce1df04963e6109e76836f16bf0b0f6"
+        },
+        {
+            "id": "6039636621416993073",
+            "emoji": "🔔",
+            "source_sha256": "28be7d10f60fd95e882a8ad3e07bf257d48b858592dd1d3e2cfa224a9ded2c17"
+        },
+        {
+            "id": "6039677157318332604",
+            "emoji": "🔔",
+            "source_sha256": "2011395c408814814728c9fa4fb57be7ff3edcc9b271439b166f7d29393c5658"
+        },
+        {
+            "id": "6030506650522096180",
+            "emoji": "📷",
+            "source_sha256": "53b738d033c49e48ce19fbdaab81ea27c164760d1e1fcbef1316fa436e7fea66"
+        },
+        {
+            "id": "6030506384234123289",
+            "emoji": "📷",
+            "source_sha256": "da9ec4c56fe669f04c9c1ef8e7972cf828d77b068b06151fbcadba1b02302062"
+        },
+        {
+            "id": "5944753741512052670",
+            "emoji": "📷",
+            "source_sha256": "508b5fc1ecc0d38cd7d75ccae53d35b9bfdd9ca3f2b9f915289ef84f91401b5e"
+        },
+        {
+            "id": "5944969250086063864",
+            "emoji": "📷",
+            "source_sha256": "6c0f2907c66b42b44c4a3b4ecc8dad794292f539ee99fbf73bd30641954de371"
+        },
+        {
+            "id": "6048390817033228573",
+            "emoji": "📷",
+            "source_sha256": "fd529783ffe89beb29242074ccb64651d11126c12e404d855463ae76b36964f6"
+        },
+        {
+            "id": "6048808236314791508",
+            "emoji": "📷",
+            "source_sha256": "5d804612174ab5f967a429419cae5d7aee67a3846598d40b1ed050fa4095c069"
+        },
+        {
+            "id": "6048896442058150625",
+            "emoji": "📷",
+            "source_sha256": "0a5dc03b6333d808aef98dc2cdff910ad8a31fb02b988b0368db12ba351527da"
+        },
+        {
+            "id": "5778549588172477436",
+            "emoji": "📷",
+            "source_sha256": "02a72d93fd4c1f951dee13633dd64ede8270059ebe477b669c3427741ac7ea3a"
+        },
+        {
+            "id": "5944777041709633960",
+            "emoji": "🎞",
+            "source_sha256": "2d2ec428f6c63f1dd3caa6ed2d6680155801a8f0b7e8e8183708d42ea37429c0"
+        },
+        {
+            "id": "5945123916153360580",
+            "emoji": "🎞",
+            "source_sha256": "697532ade746ac4da99a72cfd5baa583cc357b7acaef7eb83a41911796ca8c8d"
+        },
+        {
+            "id": "6037533152593842454",
+            "emoji": "❤️",
+            "source_sha256": "a4f1cfe75280004c68fcbae25b4209b9485cdd90012ac48564b544738a3a8e8d"
+        },
+        {
+            "id": "6035127296598217030",
+            "emoji": "❤️",
+            "source_sha256": "ae264c07e7cf83f1b52b5951b713171244a21f05771d4327b80e04e22fe8f805"
+        },
+        {
+            "id": "6037286673010660132",
+            "emoji": "📖",
+            "source_sha256": "e1f12bb40ab2f60afaa145fbdaa82a0c4f108f6034c62f1f4c38ef44f7afd243"
+        },
+        {
+            "id": "6039584437564347225",
+            "emoji": "📖",
+            "source_sha256": "40ddb06e9841170c6ab107631aeb9ae71c0b3cc81f44259fea272a060eb617a1"
+        },
+        {
+            "id": "6039519841256214245",
+            "emoji": "⬅️",
+            "source_sha256": "446486d58131dd6aedf550fd12b447a877306749ada71ae670acd786910374b6"
+        },
+        {
+            "id": "5767117162619605573",
+            "emoji": "📷",
+            "source_sha256": "9da3ec9dc14288056a972b6dbb52ac546aa750e9d4431ac9a868346598314aa9"
+        },
+        {
+            "id": "5904340783611254165",
+            "emoji": "🖼",
+            "source_sha256": "4dbb8e5cc0477df92fe5be1691a69c0498bc4e9a76f95daf6dcf8becd744d8ac"
+        },
+        {
+            "id": "6035231690073314447",
+            "emoji": "5️⃣",
+            "source_sha256": "c903d4d3ab916af96d7042dcf96a4ed1e8c99aabe732bfcde407f08839705f4a"
+        },
+        {
+            "id": "6034847960515219908",
+            "emoji": "2️⃣",
+            "source_sha256": "fb4199788110414d7ff6dec4bbcd7f13b8d64e1f8b3dc8b9caa1ce1e7c9ef5b6"
+        },
+        {
+            "id": "5850317551090800862",
+            "emoji": "⏰",
+            "source_sha256": "3696614a35120355bc4cabd5cc9a540c01f49ef264a8c00ad57a14bd2d4c789f"
+        },
+        {
+            "id": "5775896410780079073",
+            "emoji": "🕓",
+            "source_sha256": "3eb9905277c0de1dfc9fbc5ecbe63a5de77b92e4196a757343ac1e469fb78011"
+        },
+        {
+            "id": "5843679481566335204",
+            "emoji": "👣",
+            "source_sha256": "d21e858604a724ff7f01ddbc5ad03863f385c53d27d5deb97880887a6c19e8a3"
+        },
+        {
+            "id": "5843596438373667352",
+            "emoji": "✅️",
+            "source_sha256": "077105282d08706b2a630d6f353361bf4282f6f635108698cbadf9239a28dc26"
+        },
+        {
+            "id": "6037268453759389862",
+            "emoji": "⏲️",
+            "source_sha256": "3de939f8b7547030dcdcfaa6c707d374f2d1606a8d50d94057ba93b11f0f12d1"
+        },
+        {
+            "id": "5983150113483134607",
+            "emoji": "⏰️",
+            "source_sha256": "109978bae78e76c870d309f919e087c1aecb92089476cd382e0836fe33baa60d"
+        },
+        {
+            "id": "5769230088960741619",
+            "emoji": "⏲️",
+            "source_sha256": "851d4146ba98dae198870194671824db469447dfb67f501b562976359b1dc5f4"
+        },
+        {
+            "id": "6037428784888549034",
+            "emoji": "🥇",
+            "source_sha256": "86bdb2ce11f42c9fe071723d1ddb8c606a28d6ffb9cb0b1e80a09012ffedf656"
+        },
+        {
+            "id": "5940515192906456099",
+            "emoji": "1️⃣",
+            "source_sha256": "6359b16495a73db6912107ba5ea5640900b38f4ede2e1cbc0dc3e4664becf2d3"
+        },
+        {
+            "id": "5940420518942347102",
+            "emoji": "2️⃣",
+            "source_sha256": "a27bb2bcafc3953a88bc9a847908c5cacb79e90595c255d3e564f2f1a30f93c2"
+        },
+        {
+            "id": "5886579539064132088",
+            "emoji": "🎥",
+            "source_sha256": "12b7282e2982c7a25a91a6c76ae8bc97c0c6a92bc45a41bb389208bf4b9a312e"
+        },
+        {
+            "id": "5884252508603289902",
+            "emoji": "🎥",
+            "source_sha256": "54bf10e1f5460528d3c6ebe90ab628590d3fde5774b054c5b8cb05dd39fb4014"
+        },
+        {
+            "id": "5884351885556585857",
+            "emoji": "🎥",
+            "source_sha256": "b3ac26499dc45bc4cf0da69c980842bfbd7b231ed20cc3b6b2ec0181a47fdb75"
+        },
+        {
+            "id": "6030722571412967168",
+            "emoji": "🎤",
+            "source_sha256": "f694f97054975f47b8ca2fbb7409942038679edaff7d330ad545bbf7f9bafd3f"
+        },
+        {
+            "id": "6030467682283818947",
+            "emoji": "🎙",
+            "source_sha256": "436053bbd906a709e1b0158d8d7a845d090f327b205c6031577069a3e332a9c5"
+        },
+        {
+            "id": "5933678317935791830",
+            "emoji": "🎤",
+            "source_sha256": "0971b3af25d700fe11c71f02bdf901a34b68b44db63e66b3df315b355803f183"
+        },
+        {
+            "id": "6039605143601680423",
+            "emoji": "📞",
+            "source_sha256": "15c9356044edf27e4d97d49eff8d261c0c347fa30dd69f5eeff0ba530610461a"
+        },
+        {
+            "id": "6037418554276452311",
+            "emoji": "📞",
+            "source_sha256": "35bd93def62aee9999e414155961cd539877820cd07e6ab802972314c1b8e2cd"
+        },
+        {
+            "id": "6039398100408209720",
+            "emoji": "☎️",
+            "source_sha256": "823748f5427534883cea5dea6167fdf6cb02554b67718b3afc70d78b2a904c4f"
+        },
+        {
+            "id": "5983580310292402968",
+            "emoji": "🤖",
+            "source_sha256": "8b74b0eb52899fc3de17a2c83ad47201523d4698c7588a2aea2edb8be5bd8eab"
+        },
+        {
+            "id": "6030784887093464891",
+            "emoji": "💬",
+            "source_sha256": "34bcfcd03d50cb96d0326f02894a5d9bce63ce1a08b27e1ec0462593ea98c1e7"
+        },
+        {
+            "id": "6030622631818956594",
+            "emoji": "💬",
+            "source_sha256": "8045df93f4f786fa5cf10b9b85f902ef2020152729addc5f9c7b692305ec8a84"
+        },
+        {
+            "id": "6030833407339008632",
+            "emoji": "💬",
+            "source_sha256": "73c51e0bd5f95fc91746f5cf26887ecd7308f994f3c1271c764ff85f1a793ca2"
+        },
+        {
+            "id": "6030329749409108167",
+            "emoji": "💬",
+            "source_sha256": "5b6133953208441215a50f2817d57ce3ff22fea8eb70d804b8eeebc8b27529da"
+        },
+        {
+            "id": "6030512294109122096",
+            "emoji": "💬",
+            "source_sha256": "b9bb539cc6508b5313d3adaf92adf9f1a49de5900eee4d9df7afcac25bc81ec7"
+        },
+        {
+            "id": "6030776052345737530",
+            "emoji": "💬",
+            "source_sha256": "a8a13aac97d931a54f6fadf949e9c6321254f63e64017bd68cd6828cf0116e53"
+        },
+        {
+            "id": "6034831751308644168",
+            "emoji": "💬",
+            "source_sha256": "9a906fe1dd1744187401c4bf00467bd47989330d11c083174de3f546da691962"
+        },
+        {
+            "id": "5891120964468480450",
+            "emoji": "💡",
+            "source_sha256": "d35f5d01989b160be8131d209a72eb79e1cff74cd72abfef3930359277906f46"
+        },
+        {
+            "id": "6037421444789440735",
+            "emoji": "💬",
+            "source_sha256": "3ff83f1a2410d69fce380309e4f93306009e7426e2bf4cd8de2c492e391c401a"
+        },
+        {
+            "id": "5904248647972820334",
+            "emoji": "💭",
+            "source_sha256": "7a374053bf9c1041773288eb264052ddb6ded657fee3f8175c870fea2ec426f2"
+        },
+        {
+            "id": "6037254263187443802",
+            "emoji": "💬",
+            "source_sha256": "f292ef9066e0cb116ba8ed936c86b61385f2c9c5f109067c5ba084dcff7e42af"
+        },
+        {
+            "id": "6035305550625902723",
+            "emoji": "💬",
+            "source_sha256": "c1a9c8ea8409ccb136763c9754590c0b4848c629ac312605a26859a3cfe5c060"
+        },
+        {
+            "id": "6021618194228187816",
+            "emoji": "💬",
+            "source_sha256": "b473640837135d2522101f8abe1eccb787e31a17ebc7bf4fb3a8aa4288bea26d"
+        },
+        {
+            "id": "5983401171501454028",
+            "emoji": "💤",
+            "source_sha256": "a345c0464dc8f0ef1f9a2a68c2ba6906541ca8780699322e873659acf4a3fc0e"
+        },
+        {
+            "id": "5778208881301787450",
+            "emoji": "💬",
+            "source_sha256": "92cfd73cf68f9f1ea549877377bcb256716f5faeea93193479d6616eadedfd4e"
+        },
+        {
+            "id": "5767244474040192942",
+            "emoji": "💬",
+            "source_sha256": "14603704930ba3cdb300f67f87e9e1c8eadb4ef45231cfdf60820a493b446ca8"
+        },
+        {
+            "id": "5767388406984216738",
+            "emoji": "💬",
+            "source_sha256": "1fc8b904956411997c2998202612c116db98ef98b887648e44c65b5a166e4c60"
+        },
+        {
+            "id": "5776182936638329359",
+            "emoji": "📥",
+            "source_sha256": "14ab20f655ac54778447bfa03f638c38db76da8c1c085dbce1c2807f2d3a6b3a"
+        },
+        {
+            "id": "5843918217323484232",
+            "emoji": "💬",
+            "source_sha256": "12ba9cd8c3011ddd58d5c5ebfe54cd5ae92e1eba5b42d105daac6ca67856e551"
+        },
+        {
+            "id": "5936035091045159318",
+            "emoji": "💬",
+            "source_sha256": "2eb47909fea0bb6fcc3deedb3130696f2eb4e04e4d265c952ad99455de4942d0"
+        },
+        {
+            "id": "5776227595708273495",
+            "emoji": "🔒",
+            "source_sha256": "8021079eb6c0162db4e80cb261d8e34d821e1b3c41e11f7472a241c38bbe1150"
+        },
+        {
+            "id": "5778570255555105942",
+            "emoji": "🔒",
+            "source_sha256": "44e666782b5ff348c603e6024c201301035d637a769430792040be8eef6f2f08"
+        },
+        {
+            "id": "5922610170034132416",
+            "emoji": "🔞",
+            "source_sha256": "b1021dc626847c5b455ad73cc51eaab928a38146768a0b8ec16b2aa5a8566406"
+        },
+        {
+            "id": "5920137394153067262",
+            "emoji": "🔞",
+            "source_sha256": "afea973d14b6e5b0c19e6f1400754b8648eadce0d719caf0310f833fde44c97e"
+        },
+        {
+            "id": "6030399199030284183",
+            "emoji": "📍",
+            "source_sha256": "b07f02d3a888bd919c768f77f7d97b19a7b9ff6882a2ac734df2f75186c1ee7f"
+        },
+        {
+            "id": "6030418144131026917",
+            "emoji": "📍",
+            "source_sha256": "e22da00f7a2c8db70e5ddcf821bf2e74051259600ac5c8b3a668c69060276271"
+        },
+        {
+            "id": "6032994772321309200",
+            "emoji": "👤",
+            "source_sha256": "27f858889d089c98cafb8f2be06bca10147ee9326d326c84a75bbc842cd44abe"
+        },
+        {
+            "id": "6032693626394382504",
+            "emoji": "👤",
+            "source_sha256": "c4e56a41d2d3365a94f92717b2834ed5000310e5ce20055e932c8fee6aca38a7"
+        },
+        {
+            "id": "5767278056389480519",
+            "emoji": "👤",
+            "source_sha256": "1315b947d8610007264699a9d2126e44dbd9aa47ae8799338f1c9287507fb226"
+        },
+        {
+            "id": "5766915217552315762",
+            "emoji": "👤",
+            "source_sha256": "a1e2db9acd100947eb933c00370b6199efa741f9baf913c4a278e8eb33be1609"
+        },
+        {
+            "id": "6035084557378654059",
+            "emoji": "👤",
+            "source_sha256": "11e0d83dd508cd6fe72feb945dbd58a011270317e321c471d4a2524275181e2c"
+        },
+        {
+            "id": "5893192487324880883",
+            "emoji": "👤",
+            "source_sha256": "b392773ca6d37d03bc4cfa44721ee775222667ffc2faaad564ee0241159f46f0"
+        },
+        {
+            "id": "6035191085452497972",
+            "emoji": "👤",
+            "source_sha256": "a353b357c211516d650233e0ed500dd5499c4964885403c83a8b8fd7c1eb83b4"
+        },
+        {
+            "id": "6033108709213736873",
+            "emoji": "➕",
+            "source_sha256": "3b7d1c800de0f37ffcfce6389f646865f12b7f299bcbadc901b73b30a91d3ba8"
+        },
+        {
+            "id": "5891207662678317861",
+            "emoji": "👤",
+            "source_sha256": "8bfde90bfa46b72b17031f2c4c87d9e505050370b5db8c4c188aeb721c33c23e"
+        },
+        {
+            "id": "6032653721853234759",
+            "emoji": "🗣",
+            "source_sha256": "ce5fa54d267d613246ec6735cef18b774a440721cdfe9cc8c4138b58c8fdd7c2"
+        },
+        {
+            "id": "6032609071373226027",
+            "emoji": "👥",
+            "source_sha256": "f7487d963f42e961774e64c786dae0d7f9b8b7018d263f2a54ba5df6ac69b9fd"
+        },
+        {
+            "id": "5879905000972358125",
+            "emoji": "👥",
+            "source_sha256": "78b6171baa643764a2159160c0f9498c41eee41794200b4cb657dfb15d49fa57"
+        },
+        {
+            "id": "6033125983572201397",
+            "emoji": "👥",
+            "source_sha256": "b01614547fd9fddfde4949b543946cabc11375259a0b77023fa1a385cb51ae59"
+        },
+        {
+            "id": "6032594876506312598",
+            "emoji": "👥",
+            "source_sha256": "bd82f512728e41fbc6f501b605d9ab8fdcc78becd9214c109e62da0895a7cea6"
+        },
+        {
+            "id": "6041685260687642937",
+            "emoji": "👤",
+            "source_sha256": "3bd0d5228bca5c128c271b5643a00fc8360249b1f22554e1fbf6f81d4725e3ef"
+        },
+        {
+            "id": "6032608126480421344",
+            "emoji": "👤",
+            "source_sha256": "d5ab9494d90825f24b84693fd427a49472b62fb0b9502e84cf2fc8a55bcb88ca"
+        },
+        {
+            "id": "6032949275732742941",
+            "emoji": "🎯",
+            "source_sha256": "768364f817b47e0c0567fc6db18a33f4fc14708891685e9acc7d9065bd457315"
+        },
+        {
+            "id": "5938196735200333756",
+            "emoji": "👥",
+            "source_sha256": "dcf999249139380fd56af68e7d76b73563724f996b49f7a116cf968870c850f6"
+        },
+        {
+            "id": "5778145208411624388",
+            "emoji": "👤",
+            "source_sha256": "45b4b3fe9a990f901b0ec6de2078f847243820e3377d9175b3805e57ad7dd9f8"
+        },
+        {
+            "id": "5904630315946611415",
+            "emoji": "👤",
+            "source_sha256": "4a637a7adc9d3653f7bb82a40c363a14655fca30a2e81a0e685e509afa3828d8"
+        },
+        {
+            "id": "6032644646587338669",
+            "emoji": "🎁",
+            "source_sha256": "665a73bed40f06a11b7237574f36a653bbfed9f88fce9d0122195683f4266dfa"
+        },
+        {
+            "id": "6037175527846975726",
+            "emoji": "🎁",
+            "source_sha256": "cebe72e8af4cf7b7e7aa5d643a8000ee8faa3731fc9e7b349c0202c28b0e24cf"
+        },
+        {
+            "id": "6034923938486684992",
+            "emoji": "⭐️",
+            "source_sha256": "d917bea3d39a24ac0daf058e7b1b4abef2fe56e358d9cd46d56ab19a600e2acd"
+        },
+        {
+            "id": "6032625495328165724",
+            "emoji": "🎭",
+            "source_sha256": "a09aa208396d0f3fb77e79c8618a83c192628c0535615ed2d3466c67455832c3"
+        },
+        {
+            "id": "6032914237389541410",
+            "emoji": "🎭",
+            "source_sha256": "a6242c3e31ccec61c3e6f8f7e3d77342e9260a687a7156c1887dbfafe3ca3d38"
+        },
+        {
+            "id": "6032882536235932111",
+            "emoji": "🎭",
+            "source_sha256": "58caae658386b99e632036e196836783b91dc514e521395d3dbfe13789b2661f"
+        },
+        {
+            "id": "5774034804450267485",
+            "emoji": "🙂",
+            "source_sha256": "818fae0f98a599f13f5b174520aa4d80bed8e874f6345d2d7d77c124efde664d"
+        },
+        {
+            "id": "5778197572652897847",
+            "emoji": "🙁",
+            "source_sha256": "ca8c7cb93a94996b44de0ef0de854413a8afaad6658e4649af114cbcde58a43f"
+        },
+        {
+            "id": "6028315147754278596",
+            "emoji": "🙂",
+            "source_sha256": "6d43a7ce7fb0b999089491a7981a33a47e8bc5f4d468db873e620ce507eb68e8"
+        },
+        {
+            "id": "6039496266180726678",
+            "emoji": "🙂",
+            "source_sha256": "d0ab12a4daa8ea701410dfa253e9167b1d8b9f52bd5ff3fd0bfae718b68f619b"
+        },
+        {
+            "id": "6039587087559168309",
+            "emoji": "🙂",
+            "source_sha256": "8ee2518442bf3bb8bd9373be5d29b112471554cbd1e3e6c25d62e030baf64aeb"
+        },
+        {
+            "id": "6043996047582170909",
+            "emoji": "😀",
+            "source_sha256": "d3a83dc3815d5c79167e09b5f2bd18ae60a238a0a38de3ebf3c79e776b6d35e7"
+        },
+        {
+            "id": "5935824500208702046",
+            "emoji": "😀",
+            "source_sha256": "ac898f4ffeffd27e661578bf0473746a82911425d50e4f809d943a563aa3f953"
+        },
+        {
+            "id": "6043847274210005137",
+            "emoji": "😝",
+            "source_sha256": "797985f4781168222191e440d54c341367fa662ec9b5ffd2b9ede26d555a2157"
+        },
+        {
+            "id": "6043960760130868895",
+            "emoji": "🤔",
+            "source_sha256": "15f3117311bb3b59ddd66244e2c1f6a088c1af60cf4657a5eedcf630470d461e"
+        },
+        {
+            "id": "6041748912102968702",
+            "emoji": "😐",
+            "source_sha256": "9c2c4baf4fc3aef9eeaeb07d817f6debc6b7eef3beb27cfd8b6d83c74b9035d5"
+        },
+        {
+            "id": "6043973168291384891",
+            "emoji": "😨",
+            "source_sha256": "92052c184cdcc61a19a599115aead0c92d9a8f3e7236e25f53cae92f24b7fd76"
+        },
+        {
+            "id": "6042029429301973188",
+            "emoji": "☹️",
+            "source_sha256": "6dd9278a5f3d7dd8b4d9132b814dbb882917375e2d1f25ffd01b425742641b00"
+        },
+        {
+            "id": "6044118213631938928",
+            "emoji": "😡",
+            "source_sha256": "2a268cb1a0784137e85f88636f5d548b9f5b80ebda64f99626be0dc8df1939ea"
+        },
+        {
+            "id": "6039565797406282001",
+            "emoji": "🏷",
+            "source_sha256": "988932c408672c70d667d62605da97496aaf85a0d87e946654a7f34c1c5ea36a"
+        },
+        {
+            "id": "6044004057696177711",
+            "emoji": "🐻",
+            "source_sha256": "2dd53863d9a1819a909d4539708679b229963c55e5f31096afbf2a59b28a73c7"
+        },
+        {
+            "id": "6041731551845159060",
+            "emoji": "🎉",
+            "source_sha256": "65b7921c080ed4643c02877bac874f1b152022271206a8ecd570b3537b1ff858"
+        },
+        {
+            "id": "6041921818896372382",
+            "emoji": "👋",
+            "source_sha256": "0e79520a9042f77d218154e384a192a7fda590ffab33dc80b9bf8af577342bc1"
+        },
+        {
+            "id": "6041720006973067267",
+            "emoji": "👍",
+            "source_sha256": "efc9eb418ab7aa6d012fbbd7faacab1452e12680ef155c5dfe936dd614736c61"
+        },
+        {
+            "id": "6041716699848249286",
+            "emoji": "👎",
+            "source_sha256": "c66b1dd23eb21459f24dbebf69309619a78b6c3f76164796d8e7e4a75e095232"
+        },
+        {
+            "id": "5886676966102274844",
+            "emoji": "👆",
+            "source_sha256": "b858130091982c4776e216cc5e569ba5f41f7f439db268e7514525e77df20ef0"
+        },
+        {
+            "id": "5886583490434044162",
+            "emoji": "👆",
+            "source_sha256": "1d0106100a916be5d14159184e2ca47b8c05288e22ae883016b7e7740151e17c"
+        },
+        {
+            "id": "5886593849895163292",
+            "emoji": "👆",
+            "source_sha256": "e73df1e5de74aa60c5946fd2cef9bb5208960bf21062760ff11e9fd48bfd5386"
+        },
+        {
+            "id": "5884106131822875141",
+            "emoji": "👆",
+            "source_sha256": "ff0c9864c92d7c1b206f08d185798f3d89ed1989e73ad5f5bd858d6d595da556"
+        },
+        {
+            "id": "5891184096192763888",
+            "emoji": "✋️",
+            "source_sha256": "7097ee818160d7232afea8453dd09e09cc45f5f7f0440706acd473654a563f71"
+        },
+        {
+            "id": "5938215362473496448",
+            "emoji": "🚫",
+            "source_sha256": "dd2c44a36cf9247a26c907975197ee50e35a887161d23f7f573fb7b104caea53"
+        },
+        {
+            "id": "5994417835630137549",
+            "emoji": "👏",
+            "source_sha256": "6be4f1185d790d72b700c5a48ed14b9e4c6f6f597a42e9f6e573e8225e24d2b7"
+        },
+        {
+            "id": "5985478698722136468",
+            "emoji": "👋",
+            "source_sha256": "c9c542b9821085dfbb6823eb0bcd9aff965b2da7e9a135d363c20e7a7239bbe4"
+        },
+        {
+            "id": "6041874690220233085",
+            "emoji": "🍔",
+            "source_sha256": "8eeb7c5a3645d3d0530548590c002dc46b090ff850ba8107acbc864379a88350"
+        },
+        {
+            "id": "5922305158636639117",
+            "emoji": "🎂",
+            "source_sha256": "e3159577aa1c28cd176bacb9f2ae685b6282eaff453b40540460e239bca0cafc"
+        },
+        {
+            "id": "5922681543800655962",
+            "emoji": "🎂",
+            "source_sha256": "c01162c2f4028186067f55c3f2c4d6b9d178a35a1742c901ce6ba5d7aff8e95c"
+        },
+        {
+            "id": "6041963669057703997",
+            "emoji": "🛁",
+            "source_sha256": "c1bb2fa87e9f8e2906d5901cc4e16945115965d15f7450d59129cdebb7e8eb33"
+        },
+        {
+            "id": "6041923781696426657",
+            "emoji": "🏳️",
+            "source_sha256": "050de3e3ff33b98bd6b22f59da3f5d7ed99a05932067de597963bdbbfd2c01d2"
+        },
+        {
+            "id": "6042098561095570207",
+            "emoji": "🪧",
+            "source_sha256": "a141708e3cb89d0df3174d61d03122e0ba1b7a93244aec300a71be131c1fd238"
+        },
+        {
+            "id": "6041933986538721961",
+            "emoji": "⛱️",
+            "source_sha256": "2fb5f312bfc4326b8977abff63df3a975a96c0e117cf8f99080eb2c5d7ef9574"
+        },
+        {
+            "id": "6042011682497106307",
+            "emoji": "📍",
+            "source_sha256": "67dd4ac6cd640c712113238151dc3b030148f174113102a1b9540a99ff0de64e"
+        },
+        {
+            "id": "5983099415689171511",
+            "emoji": "📍",
+            "source_sha256": "9ec164a0c608ba00d52d1e98b1bb3ec8bee80434125bcb1cb6f1ac5bd34dd702"
+        },
+        {
+            "id": "5904650558127478452",
+            "emoji": "🗺",
+            "source_sha256": "0329216a387b1a2db3696423aac54e6952397b55606b6022638dc8e2d7f05e3e"
+        },
+        {
+            "id": "6042137469204303531",
+            "emoji": "🏠",
+            "source_sha256": "d010233cc383539eeb5254733a09d2f2e8584ceb2a31af23f98af46bbe2336d5"
+        },
+        {
+            "id": "5938537205847822613",
+            "emoji": "🏡",
+            "source_sha256": "122cb1fdee18026a0e81d929c7263eed04406988723d9c8c775e141ae0246ad8"
+        },
+        {
+            "id": "5938492039971737551",
+            "emoji": "💼",
+            "source_sha256": "3e365c8619ae2c6243c81ce4a45bd16e927e27f265d2fa2ef2c1fcb0158d2197"
+        },
+        {
+            "id": "5938195768832692153",
+            "emoji": "🎓",
+            "source_sha256": "cbdd30e74785292cc1c7a000816ea0672bc023e73e4722d84104363f7859bae6"
+        },
+        {
+            "id": "5882223295469722324",
+            "emoji": "👓",
+            "source_sha256": "70684202951db8e511f6fb586898558b2731389659e0e1965c8f0a207430cc3c"
+        },
+        {
+            "id": "5938473438468378529",
+            "emoji": "🎶",
+            "source_sha256": "b776e1df6d5458d9c0f1c1a4a187533ca2a1cc73350632fb2d81f4dccb7284c3"
+        },
+        {
+            "id": "5767356727305441799",
+            "emoji": "🔫",
+            "source_sha256": "4f986ad2e00116f7c6686794e187444eb13f11fe6f7548bb749eb20c83e2fe6c"
+        },
+        {
+            "id": "5937999673510858217",
+            "emoji": "🎞",
+            "source_sha256": "95dd04036d57a9b6cf30843743c52bf8050826e968c8320a56f0b336bcecb2cc"
+        },
+        {
+            "id": "5938413566624272793",
+            "emoji": "🎮",
+            "source_sha256": "3792b96ae97e20eae72526a04ba40c46bda8af2b725a08b04d37633e3ca8665d"
+        },
+        {
+            "id": "6042069608721027027",
+            "emoji": "⚽️",
+            "source_sha256": "e62308ceaed997c7646e8f79fc4a989414850ebea9d9156bb214424b2eed927e"
+        },
+        {
+            "id": "5884332803016891855",
+            "emoji": "⚪️",
+            "source_sha256": "fe187091fa5790016e8c06ed8fbc6a99d9a8d582015b3c2336a8e8eb3f2e3538"
+        },
+        {
+            "id": "5884089033558070257",
+            "emoji": "⬜️",
+            "source_sha256": "aa36e015feb46a4b799f5bfcd723ab44200923547aa81bebcc97895035acfc36"
+        },
+        {
+            "id": "5884094183223857554",
+            "emoji": "⚪️",
+            "source_sha256": "07b5000c917a4769d9b3e448270225108b69f0181a8b782d275571e7761eca24"
+        },
+        {
+            "id": "5938368005611195877",
+            "emoji": "❤️",
+            "source_sha256": "b25456ebdcdf6596cc44705b799e17c0efc35bec460d55be7b3953ffea4286a8"
+        },
+        {
+            "id": "5884330496619450755",
+            "emoji": "☁️",
+            "source_sha256": "bdb8bf2cc7b5cff03acd71efce59eda024f5fa0e84758454ac1d35e86f455e96"
+        },
+        {
+            "id": "5886685105065300941",
+            "emoji": "⭐️",
+            "source_sha256": "1ebaa071d5a820f413174f99c93af691258cad1b853ff1198c0d75b209bd69c7"
+        },
+        {
+            "id": "5938071395169734715",
+            "emoji": "🚫",
+            "source_sha256": "d4a0d8cebad4a1b0fba7a0f2b1a6de98b9a48fe6313da25ec855c526855db922"
+        },
+        {
+            "id": "5881806211195605908",
+            "emoji": "📸",
+            "source_sha256": "e765895268bbc672980f96d6a7fb4da8f00234562c7bb254940b77cea2cfe5cc"
+        },
+        {
+            "id": "5879995903955179148",
+            "emoji": "📸",
+            "source_sha256": "564c3f5d2802766435c388abc98f2252c28053b6920b873af01a48ea8a2cfb12"
+        },
+        {
+            "id": "5884428842780594914",
+            "emoji": "⚡",
+            "source_sha256": "9c8f0db315ba2315bc32f894b475e4bafd065d3fe9e2da21ecaaa0fdd84ec086"
+        },
+        {
+            "id": "5920515922505765329",
+            "emoji": "⚡️",
+            "source_sha256": "bfc4474eb1b22162c9e0e8c70118d64ef262d9309bf6ff1aad687a0366602a2a"
+        },
+        {
+            "id": "5922272602784534896",
+            "emoji": "⚡️",
+            "source_sha256": "1ec8059535de185b1e2d1a10f3a28467d9cb555d1e1a0da2f23829162c0d4a78"
+        },
+        {
+            "id": "5769248574499983619",
+            "emoji": "🔄",
+            "source_sha256": "35ad924f689665e34cce17d5fb034fef82e8c728df887d29fcfa417ca4af355e"
+        },
+        {
+            "id": "5924498929147189381",
+            "emoji": "#️⃣",
+            "source_sha256": "584ed51f80829552e870830ae6d21f3416cb8cb3f5299cb930b0922302378196"
+        },
+        {
+            "id": "5891104106721844396",
+            "emoji": "#️⃣",
+            "source_sha256": "547d2f3c3226664b53817b593c5f931ff9684f7f322e8fe42639095ef880ec0c"
+        },
+        {
+            "id": "5850693253355017860",
+            "emoji": "#️⃣",
+            "source_sha256": "6d296f2af9e7d6f46419160dbcd6f9ffe701b25598b5be2655234fd052f0e49a"
+        },
+        {
+            "id": "5767288287001580715",
+            "emoji": "💡",
+            "source_sha256": "8ed90d95639e408aa0e5630758979e59529493202fd4e2fce64ce06e59bb56f4"
+        },
+        {
+            "id": "5938525265838739643",
+            "emoji": "☀️",
+            "source_sha256": "8a1b79585325797bc3c3e7a562b9302e97ba5ae50367fa6ff78a4f0e93a2c97e"
+        },
+        {
+            "id": "5938342819922973434",
+            "emoji": "🌝",
+            "source_sha256": "3dac50b56605032f81cfb56349fbc12aa5855aeeade6ccb952ae2b6ca87750ff"
+        },
+        {
+            "id": "6041919344995209164",
+            "emoji": "✅",
+            "source_sha256": "16574ab70c541d6c8670b3e033b0eb5e82aafd80c88fcab8fcfbd970262d4605"
+        },
+        {
+            "id": "6044356915029348425",
+            "emoji": "📺",
+            "source_sha256": "08141c1e8f7fa7138ef27fffa68519a9f7c5a12d3f2797c6bf27dc1073f06132"
+        },
+        {
+            "id": "6035353688619356485",
+            "emoji": "🪟",
+            "source_sha256": "5f9f1f80ee3d629ca7f6c88c7ef03d3faf834b452bdb8936fcb705ca4da41ff1"
+        },
+        {
+            "id": "6033070647213560346",
+            "emoji": "🪟",
+            "source_sha256": "b632e869fe1af8eaf224e791f1b2a2b02231c6943a574e6839bd840b1e99a011"
+        },
+        {
+            "id": "6034834092065821141",
+            "emoji": "🪟",
+            "source_sha256": "68778b780d6b32d540427285af4520e17cc18072ec6d52b60be3f533106d21ad"
+        },
+        {
+            "id": "6043896193887506430",
+            "emoji": "📌",
+            "source_sha256": "6b3ad650402fa4cc6ad93d76dd53c75eb0630e6239fd5084685d265eabb5e9ac"
+        },
+        {
+            "id": "6043903233338904177",
+            "emoji": "📌",
+            "source_sha256": "4661fb19e77430fd7b12b07bc196ba234997c7059bcb99f34345200f66bea581"
+        },
+        {
+            "id": "6041777576714702813",
+            "emoji": "📌",
+            "source_sha256": "82fa6c1d30aa0c8aba4a179636b84c04c7b833fba4c305681c1368cc5c76ec73"
+        },
+        {
+            "id": "5776428312414917091",
+            "emoji": "⭕️",
+            "source_sha256": "e0481b2324a70cec826782a42a29dd32118004cbea64f61ceb898f7cfdb841f5"
+        },
+        {
+            "id": "5778226250149532337",
+            "emoji": "✨",
+            "source_sha256": "7fafe11aca8427d6efa802caf8dd433f7f1678da158c1154c43711af09f7a36b"
+        },
+        {
+            "id": "5778647930038653243",
+            "emoji": "✨",
+            "source_sha256": "a8809f9498a49dfcf1aff5203c3f0c872144bf30321beb28b3e0ad40d642e12a"
+        },
+        {
+            "id": "5776138384942567185",
+            "emoji": "📎",
+            "source_sha256": "cfe6cff59fd0f77df834a420590d978fda4515f061756008a2cc2037bf3cc14e"
+        },
+        {
+            "id": "5778672437122045013",
+            "emoji": "📦",
+            "source_sha256": "a0f38c3b9e732e60c785abcbd206852e314d1a97b009bdacd76638ca65b5d830"
+        },
+        {
+            "id": "5884479287171485878",
+            "emoji": "📦",
+            "source_sha256": "181c258d669cd014df824f24b7956ddc4bb9926dcad6de91d938b6783200e4e6"
+        },
+        {
+            "id": "5775903948447682435",
+            "emoji": "🖼",
+            "source_sha256": "dc3f9029bf163e36da16b17fb99427d25129af2489867b50f8d2fb5c3d677c74"
+        },
+        {
+            "id": "5769527287812723055",
+            "emoji": "☀️",
+            "source_sha256": "8065a26b5984824aa297f57071e2cd4d9e89ad92fe41750ebd967cd47d543f14"
+        },
+        {
+            "id": "5769143090103193926",
+            "emoji": "🌙",
+            "source_sha256": "1beddbf3ce34afb4bf1447f58272dbfb6ee75aefddf9de6bf1fee17655b5adf1"
+        },
+        {
+            "id": "6048407885233263063",
+            "emoji": "♾",
+            "source_sha256": "5443d8040e566fb0bf489263c189d5dfe1e3d547b0a01e31f85dc805282706a6"
+        },
+        {
+            "id": "6044117517847236354",
+            "emoji": "🎙",
+            "source_sha256": "61395ceb0bc612659fb533dd950d763cc7e89ab7e1893ded2ca06379db23b58d"
+        },
+        {
+            "id": "6048723247501938454",
+            "emoji": "🛜",
+            "source_sha256": "08141c1e8f7fa7138ef27fffa68519a9f7c5a12d3f2797c6bf27dc1073f06132"
+        },
+        {
+            "id": "5884366771913233289",
+            "emoji": "👤",
+            "source_sha256": "f5019655dbc1e04d1c41c07149a01b955d5a6c63135fc1269008e34fdc1fd2fd"
+        },
+        {
+            "id": "5927118708873892465",
+            "emoji": "✈️",
+            "source_sha256": "aaec99e5412d692fc11c0f0217618f2915422856bba8d23943d8ff85f6a38617"
+        },
+        {
+            "id": "6050842281286570825",
+            "emoji": "🔞",
+            "source_sha256": "a0729b2dca1e38cf3431e0c3ee15cdb5b998bc1048d1b0d4709072be35f5ed04"
+        },
+        {
+            "id": "6050643982646513651",
+            "emoji": "📄",
+            "source_sha256": "2cfb2abd1a44d6e093cde9af2d3131fc69fcf842f8d07ea4669c19a599a68e9d"
+        },
+        {
+            "id": "5764638872000533034",
+            "emoji": "🔣",
+            "source_sha256": "d35399f7d8ce2d61911518d84ad57624a75a982e79fb41172cef29b0f996f41e"
+        },
+        {
+            "id": "5766975922620076409",
+            "emoji": "📷",
+            "source_sha256": "bbdf9c3dfc27d8ee234adb913fca590d694d045b7feb037c6d3e4f2ad6071cc3"
+        },
+        {
+            "id": "6050677620830376838",
+            "emoji": "💊",
+            "source_sha256": "e613224f8230df5d4361c9a90612e4bd820bc7bd5f6af57bf147dc562cba47c6"
+        },
+        {
+            "id": "5771847914477326786",
+            "emoji": "✏️",
+            "source_sha256": "1a8a28593bdf88bd1d7fefe8f156bc4ef215b418530a1e8d029ef01ecf2b4f14"
+        },
+        {
+            "id": "6050632433479455053",
+            "emoji": "💧",
+            "source_sha256": "33672ffc7273cb362a8c2139f46057d16d4d59aeb45c99f0d86ab1c2b09f96a8"
+        },
+        {
+            "id": "6050944866580435869",
+            "emoji": "💧",
+            "source_sha256": "be3346a0057d22bc27cba1ea8f73ddd023da4391bad849b6f94d6ca304197157"
+        },
+        {
+            "id": "5771798621137670637",
+            "emoji": "🖍",
+            "source_sha256": "86247112fb5f3ed87c39ad3a92e2b560fcfaa006cdae074ad4a64fee9a06a232"
+        },
+        {
+            "id": "6050679691004612757",
+            "emoji": "🖌",
+            "source_sha256": "9c95137d5016a07ecec92602d66ad917b84b823c52edb027fff9cea0d57f3467"
+        },
+        {
+            "id": "6050847684355428245",
+            "emoji": "🖌",
+            "source_sha256": "95caee67861f2cb53d57458ce2a4f4caf0a656acd4df34873f16482abc2c45d4"
+        },
+        {
+            "id": "5811925731785052842",
+            "emoji": "🖌",
+            "source_sha256": "fb4084554d48c5b3725b522df9f551c97533e87489287c5e695fdf51efd0d85b"
+        },
+        {
+            "id": "5811966564039135541",
+            "emoji": "🧽",
+            "source_sha256": "6fe81ff86fe25ebb3af6c6e0b6c62449c626fefb7541475c9a94b21e79a6bfbf"
+        },
+        {
+            "id": "5812150667812280629",
+            "emoji": "🫥",
+            "source_sha256": "0658b9c2f90dce291055e2e5ab852f6e93c29c965aa0646c5bebd982c0ea7312"
+        },
+        {
+            "id": "6021792097454002931",
+            "emoji": "🪄",
+            "source_sha256": "fcfe90a5fea24238b1be038e92d813446970578db98088efe9ce6c5338a92020"
+        },
+        {
+            "id": "5769635757211784031",
+            "emoji": "👩‍🎨",
+            "source_sha256": "4171da8b3a89bc09092b5fbe328cfaba94ae1212c5e1932355dcb618702dbba5"
+        },
+        {
+            "id": "6050877727651664314",
+            "emoji": "🖌",
+            "source_sha256": "c691c8cf6c842eb788afd54058d160f3985eea5fc474e258b260b1b2f87de383"
+        },
+        {
+            "id": "5767310088255576068",
+            "emoji": "🔃",
+            "source_sha256": "e4054bfe97d56ee3c69969ff95e7ecce04481f322f3446dd417a60d9dcfb8376"
+        },
+        {
+            "id": "5778432163766604235",
+            "emoji": "↩️",
+            "source_sha256": "d812fb4db8519062339395f6c9b829e6c408495c87cabe099d6408dbda30bf45"
+        },
+        {
+            "id": "5771851822897566479",
+            "emoji": "🔡",
+            "source_sha256": "20f455d4ee2a994efb1d392de12cf2fdb56a4acddea01c0627a6bd57f99ddcf1"
+        },
+        {
+            "id": "5767262289564536912",
+            "emoji": "🔡",
+            "source_sha256": "4d571d673a862371b12a8241f39646c5ad0ad4026eaa5812323b7d18105a05d9"
+        },
+        {
+            "id": "6030710030108463274",
+            "emoji": "🅰",
+            "source_sha256": "bb87f219a8e059d34510eb75d5ea295838d6f59d76d10af01d262d662db4d1fc"
+        },
+        {
+            "id": "6030437157951246585",
+            "emoji": "🅰",
+            "source_sha256": "cf7a251d6c45a6ec768268cd36f2328742a9c689583fe12dd04a4bb95b6dd760"
+        },
+        {
+            "id": "6030764546128352351",
+            "emoji": "🅰",
+            "source_sha256": "fdd37a7162e6a4c791932192199a177333f2300e9fdc840b242c163a79648c54"
+        },
+        {
+            "id": "6030474781864759622",
+            "emoji": "🅰",
+            "source_sha256": "38d4da3a55389aff751c5185247efc0987f92c44d0faa9979471702bb01f2634"
+        },
+        {
+            "id": "5769500641835618919",
+            "emoji": "🗣",
+            "source_sha256": "42059f1f2d28f61f4e397c84bd6f1188d62729111d9070b47f9de6140dadc6e4"
+        },
+        {
+            "id": "5766919430915232878",
+            "emoji": "🗣",
+            "source_sha256": "7a28da4d821da88a9a28166404ddc4059825979458dcc8dddf0589d2c4cf33ee"
+        },
+        {
+            "id": "5771880672192893347",
+            "emoji": "✂️",
+            "source_sha256": "c41453087b4ffaf5974665b147a4338507298ae178c4989b537ec2159f3d87b1"
+        },
+        {
+            "id": "5778299625370817409",
+            "emoji": "📝",
+            "source_sha256": "378b605587241159d187bc369f6306162ff1c3f3b63f7730cced1fb6cadd3323"
+        },
+        {
+            "id": "5778479949572738874",
+            "emoji": "↔️",
+            "source_sha256": "a88ec3c5900556509f3a0b4118a6c68e148310a1ac6abce15c53fa3f18a86e48"
+        },
+        {
+            "id": "5778593237925105705",
+            "emoji": "↔️",
+            "source_sha256": "9d5f4a298fed4127a68f4450bf44e65f8029004bf799688cd01a993fd7e077dd"
+        },
+        {
+            "id": "5771603848665765302",
+            "emoji": "🖼",
+            "source_sha256": "5a80314c6dbd24e77ad9b77caab5af0692be37e523329d1f921722b55def361d"
+        },
+        {
+            "id": "5890840627658102916",
+            "emoji": "🖼",
+            "source_sha256": "6296267b566cac93a17575df8b22dd19398d8b2f9a4218db501c2608de46e06d"
+        },
+        {
+            "id": "5776253421346625666",
+            "emoji": "🖼",
+            "source_sha256": "00ea1ece724fd52b0bf9aa1766e05d408455f8f5bfdc0a30c72bdece806e0257"
+        },
+        {
+            "id": "5882207227997066107",
+            "emoji": "➕",
+            "source_sha256": "56fca4f50d4084a79a4bd88c5d50370f9c88cb8309e74cd7d7cd842b7e298aa8"
+        },
+        {
+            "id": "5938539885907415367",
+            "emoji": "📈",
+            "source_sha256": "48e9f2e14088aabc7e34b5b90ff8a9f192f00356bce460ab5b0d50c2338a4296"
+        },
+        {
+            "id": "5935913431801532272",
+            "emoji": "📈",
+            "source_sha256": "e66af138e7541532102225f20342b7fcb770aaa8151d5a2e3255be090232c2b2"
+        },
+        {
+            "id": "5936143551854285132",
+            "emoji": "📊",
+            "source_sha256": "2428e147a058b865eb9eff579faaaf70338ce674f795bf43000931f235a58b04"
+        },
+        {
+            "id": "5776233299424843260",
+            "emoji": "🌐",
+            "source_sha256": "d22caea8b4eb614e2fb2548f0401b47da7ced91ae0bfcf80725bde8884bfda26"
+        },
+        {
+            "id": "5879814368572478751",
+            "emoji": "🏧",
+            "source_sha256": "2718aaa39d30e7bfbaf3a3afb2816169f565d23941bfbae675c3055f6d611823"
+        },
+        {
+            "id": "5778421276024509124",
+            "emoji": "💰",
+            "source_sha256": "ee6c0646d8dfa15d4d1703bd0b72bc6fd041043fbed1d4f72ea6fa5a56781df5"
+        },
+        {
+            "id": "5778613750688911681",
+            "emoji": "🪙",
+            "source_sha256": "605a87b88dccf006d8eb2659ce95938a17ef7653a8eca8fa7e743f0250343ba8"
+        },
+        {
+            "id": "5776023601941582822",
+            "emoji": "💎",
+            "source_sha256": "2370d63925a0c920a535f1cc6d4d818913bcf3840b85f474d9131f30f306cf5c"
+        },
+        {
+            "id": "6037083366438737901",
+            "emoji": "💎",
+            "source_sha256": "1008c1ff5f924caccbe5e996ae4bceff94fd5000671f7f3d80cc2a8318e2a2e4"
+        },
+        {
+            "id": "5891105528356018797",
+            "emoji": "💎",
+            "source_sha256": "abe6de4e440589ae86c1b3b0528e4ffdc74e35e1ef2d0ce9dab6902e53aa7b1a"
+        },
+        {
+            "id": "6039859895291877126",
+            "emoji": "💎",
+            "source_sha256": "cc0b6a03d5388c5bc178fef4889f963eddc9e0a688cd915395cadfe91201eb35"
+        },
+        {
+            "id": "6039729023343400390",
+            "emoji": "🔨",
+            "source_sha256": "63b4a27bfdd208fe7e4d0e675b4be11566ae28d8020c91ef1dd13a779c48bcb0"
+        },
+        {
+            "id": "5904462880941545555",
+            "emoji": "🪙",
+            "source_sha256": "45f085604490013721e1fbe4b4be5b6cc735ab4e844cee75b2962e6157ac994c"
+        },
+        {
+            "id": "5890848474563352982",
+            "emoji": "🪙",
+            "source_sha256": "a870539e7c15fe00b5acba82f4cd150957e725646afdff1e41709c9b37c31fa4"
+        },
+        {
+            "id": "5902206159095339799",
+            "emoji": "🤑",
+            "source_sha256": "07deb5446bb97ea1dbb5f01003654c2cdcdbe0400c421d7705473ac2c31ef446"
+        },
+        {
+            "id": "5920332557466997677",
+            "emoji": "🏪",
+            "source_sha256": "dbc95ce045601e57f76d74ee8dbfac66598c4f83b19b172f919a7cfe5b84bfff"
+        },
+        {
+            "id": "5890974664997477030",
+            "emoji": "🏷",
+            "source_sha256": "7b69992347b14ae923c989c5b616032d089ecc507a7e4abf8558a0db22323649"
+        },
+        {
+            "id": "5890883384057533697",
+            "emoji": "🏷",
+            "source_sha256": "56479e480794b0f7a296990f062760347b8361dcc479e69cd9ca7e6d85b17ac9"
+        },
+        {
+            "id": "5890727932011223292",
+            "emoji": "🏷",
+            "source_sha256": "25f596f268751deb9f883258dbe444972163e23f754206480de643b2e589580a"
+        },
+        {
+            "id": "5769403725898584391",
+            "emoji": "🅰",
+            "source_sha256": "55310148422f25eb6bb2a3e13a9389ecf8a24497e054e0ec57461147ac2fb172"
+        },
+        {
+            "id": "5776118099812028333",
+            "emoji": "📟",
+            "source_sha256": "355a8bdc7cbdbed0208da47bf6d0a6b6cbc51a00711d5b28e14037580adacc00"
+        },
+        {
+            "id": "6050588788021793070",
+            "emoji": "🌀",
+            "source_sha256": "ef13574178977d364f15dc92b4ef54e5ae34a9f035903284539bdba8fce7a68d"
+        },
+        {
+            "id": "5771652845652677093",
+            "emoji": "🔳",
+            "source_sha256": "513839e8610caed97e3d6856428360a1bdfd20c7f9cec8222f6a353f37b71e46"
+        },
+        {
+            "id": "5890937706803894250",
+            "emoji": "📅",
+            "source_sha256": "9288619ed01477e679e6150db2d92280fc7c7c240169fd44d4ec8bbd4e6cde55"
+        },
+        {
+            "id": "5891100675042974129",
+            "emoji": "📅",
+            "source_sha256": "9b4292a05e68f36535547b26d810dcdfebfd5659f11eebf99fb2192fd922e114"
+        },
+        {
+            "id": "5891211339170326418",
+            "emoji": "⌛️",
+            "source_sha256": "68a8d08fbce3055be61f0ade8a380a0b5fd426ba5ea2bdb0976f73f46b69c944"
+        },
+        {
+            "id": "5769406891289481208",
+            "emoji": "💎",
+            "source_sha256": "a7da33b33ba5817d8abf7e950dccc9f71490b03873e477577c4c92bd3200cbe4"
+        },
+        {
+            "id": "5769126056262898415",
+            "emoji": "👛",
+            "source_sha256": "ed1f1382126e268d3cb647daa05eec2dd475ac728cd405ddcbc1e0b6f217f6d0"
+        },
+        {
+            "id": "5904359114531675993",
+            "emoji": "💰",
+            "source_sha256": "c5f7b42bd7bc607a9da0966fb4d681251f0e22d1e0b41f0d13687739f13db8d5"
+        },
+        {
+            "id": "6030537810509828330",
+            "emoji": "⏲",
+            "source_sha256": "18fc4792c9e316a22a8fc0ef4e90d83ed9f2e0e1114fbf3a1cc40b957790c915"
+        },
+        {
+            "id": "6030687898141987254",
+            "emoji": "🧭",
+            "source_sha256": "0b6047951eff8fba696115104e4be3bc20aedf5826a7f992953f92d136c25fee"
+        },
+        {
+            "id": "6030839471832829491",
+            "emoji": "✅",
+            "source_sha256": "f719fa53c4290193459add0f6d20e0f3579df0f8f901949354ef2ad13a7d1561"
+        },
+        {
+            "id": "5895669571058142797",
+            "emoji": "🆕",
+            "source_sha256": "4f2923e19373c497859eb4aa1209590b6b2814737fc711285c0af50064230a5f"
+        },
+        {
+            "id": "5890925363067886150",
+            "emoji": "✨",
+            "source_sha256": "64bc861e406359eb6157ec459144ea37e71de93d561ef306ce1ca2272d1edd61"
+        },
+        {
+            "id": "5794164805065514131",
+            "emoji": "1⃣",
+            "source_sha256": "139fdcc3c79647d926190e764082ac7ce2370d9607f4af7ab85797e6b87c06de"
+        },
+        {
+            "id": "5794085322400733645",
+            "emoji": "2⃣",
+            "source_sha256": "8b6c7f3add0ad1a951dac284565e7c882d35980b8c3c1f33461875ef0f0faee1"
+        },
+        {
+            "id": "5794280000383358988",
+            "emoji": "3⃣",
+            "source_sha256": "171f0a5a791b790b548e03943eb3b0a0b1fc7afdfcaf4669a4e3da0af91fd293"
+        },
+        {
+            "id": "5794241397217304511",
+            "emoji": "4⃣",
+            "source_sha256": "afd98b4b1065413b08f51129999058eb19a51989e4412dd83ddd2e741f466ff3"
+        },
+        {
+            "id": "5793985348446984682",
+            "emoji": "5⃣",
+            "source_sha256": "049b269ca1e58efcbed3bab048c1f9a034cf68d72ec7be91a68c0927e49a10e8"
+        },
+        {
+            "id": "5794324702402976226",
+            "emoji": "6⃣",
+            "source_sha256": "a6caf1289eb6173d9f8bd4f0f866e8c6aee3d3d318c30209b671e98d1fc432f6"
+        },
+        {
+            "id": "5793942849745591465",
+            "emoji": "7⃣",
+            "source_sha256": "be8b66c1926cbed86b0738536f68de715c9a5dd8eacb741c7f7b2d5299425245"
+        },
+        {
+            "id": "5793926687783655907",
+            "emoji": "8⃣",
+            "source_sha256": "00cd24bd78314cf57ed11b41e9255a28822ec907e373b6706eef0a97bc9f655d"
+        },
+        {
+            "id": "5793979472931723221",
+            "emoji": "9⃣",
+            "source_sha256": "c5655fe540f2cbfb63ca0bb618308af41239b03edbba0ad2ff41b9429c827203"
+        },
+        {
+            "id": "5794375786743995258",
+            "emoji": "1⃣",
+            "source_sha256": "03b5b3cf1d0d14ea90c68f03c6783976c44c45fecc924f34c7d70a88e7d77aef"
+        },
+        {
+            "id": "5793900634512039101",
+            "emoji": "2⃣",
+            "source_sha256": "06659a8db71e3dfa471759db448c9e69f2f9c8bfa30db45613fe292a21112fdc"
+        },
+        {
+            "id": "5793981487271386646",
+            "emoji": "3⃣",
+            "source_sha256": "53e56cfea7cb3f594fd3fa420e6cf004dadb379f112274a2c003c198c13b5fc0"
+        },
+        {
+            "id": "5794377032284510899",
+            "emoji": "4⃣",
+            "source_sha256": "304a98107a6711c51bc55342dd4b44a5f2790303327dba400456ae784828c7b3"
+        },
+        {
+            "id": "5794421072879164075",
+            "emoji": "5⃣",
+            "source_sha256": "f981a66c29742dd47e30c06b174271a6c5ae9ab0a804c8db5884180654ee5724"
+        },
+        {
+            "id": "5794125282776456691",
+            "emoji": "6⃣",
+            "source_sha256": "473f1f89b949a1247d5a102a0f13fc5f8b104acac9b49be6a24161525722caff"
+        },
+        {
+            "id": "5793921538117868592",
+            "emoji": "7⃣",
+            "source_sha256": "bb9f5928ced8fe5912275e7b604980039b309c4fb05aa02123dfa9a1a3ff37aa"
+        },
+        {
+            "id": "5794030230855227946",
+            "emoji": "8⃣",
+            "source_sha256": "88d8357076cc69a0a224075397fc79c6cc7a9a2237f05ae124de4022bb9aaf1d"
+        },
+        {
+            "id": "5793886611443817052",
+            "emoji": "9⃣",
+            "source_sha256": "ce12cdeaeac285f1e1f23e23b87c9965fff1acd72631715cb4e11e688c4f8d53"
+        },
+        {
+            "id": "5805553606635559688",
+            "emoji": "👑",
+            "source_sha256": "4f4cf806bce793e69a5ae6b33b4a93542235f56d2b23e8ed909531badc34a669"
+        },
+        {
+            "id": "5805331990618053402",
+            "emoji": "🌟",
+            "source_sha256": "8129f60727979ab9103746509cfc67fae0a9f703afac184d1d0b1e6fb3cf3cdf"
+        },
+        {
+            "id": "5805550320985578625",
+            "emoji": "📁",
+            "source_sha256": "1fa434975e73fc5d0403c3de8dd0119b32db2174f42963076b8a318a0894f140"
+        },
+        {
+            "id": "5805648413743651862",
+            "emoji": "📁",
+            "source_sha256": "6e4d52795b4de6cb0096706e4e61acb2defb70a5164fdf31558ea36630b6614b"
+        },
+        {
+            "id": "5805506958995758422",
+            "emoji": "📁",
+            "source_sha256": "f1985edd241fec672c05fbfc50bf5ac9e9c5564f4e60db6448a007cc8d3c0851"
+        },
+        {
+            "id": "5805382340519664323",
+            "emoji": "📁",
+            "source_sha256": "57dbea37bd8c1155fde04cb0460c41356eb4fb7cc8315a1990d25b6974f599fb"
+        },
+        {
+            "id": "5805298713211447980",
+            "emoji": "🎁",
+            "source_sha256": "64eab43f1f066651ff4069dab625cf4cdb569fb8647b4ed8df265551619af345"
+        },
+        {
+            "id": "5837069325034331827",
+            "emoji": "🧩",
+            "source_sha256": "9ecfd2061a88567b93ef95b3afce7358ede47d2ac224f997fcf1dd13e3e1ad27"
+        },
+        {
+            "id": "5836997023554870252",
+            "emoji": "🔨",
+            "source_sha256": "aff7adf188a0b77cebd663c3e09bc31f82bb04f3bdb340e5df846b1a10ac1c37"
+        },
+        {
+            "id": "5836866396419530588",
+            "emoji": "🔨",
+            "source_sha256": "be667d88860c34789ea2bf849d0133a3d19874144477ff86f2cf85936cbeaacf"
+        },
+        {
+            "id": "5836907383292436018",
+            "emoji": "💎",
+            "source_sha256": "78093e682638100558b8ea71d0e77f8a23983caf52c7b4d76badf86230d0f8f1"
+        },
+        {
+            "id": "5940660740758184142",
+            "emoji": "✨",
+            "source_sha256": "7b52807707528ea7dcb968ae416f927478e0b0a0894976fb25a20594f54522e4"
+        },
+        {
+            "id": "6007983438294949171",
+            "emoji": "💎",
+            "source_sha256": "722c73d1c64fd6b5e2dbdef1e91cf0a3f133942423663906e945eee1a9df867d"
+        },
+        {
+            "id": "5935758241748230351",
+            "emoji": "💎",
+            "source_sha256": "3f14864af1181c7fd04482734351362ba035cba4b151f33355b763add9d869cc"
+        },
+        {
+            "id": "5935831909027290613",
+            "emoji": "🔖",
+            "source_sha256": "4c6c83f3940986dea7344a0611e313e622f604acba00568a74a1829f35c895fe"
+        },
+        {
+            "id": "5936088245560419529",
+            "emoji": "⚡️",
+            "source_sha256": "5c88a3eecbb284ec0094e7e67689304e54c1d3ff7a0434a08fa4f99597ee0431"
+        },
+        {
+            "id": "5938252440926163756",
+            "emoji": "✅",
+            "source_sha256": "292a1c3c9d59167726985708e6ceebeb9f8dc4c190ff61f8bfa86c1c77a29f8d"
+        }
+    ]
+}

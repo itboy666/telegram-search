@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS ts_installation (
+ id TINYINT UNSIGNED NOT NULL PRIMARY KEY,
+ installation_id CHAR(64) CHARACTER SET ascii COLLATE ascii_bin NOT NULL,
+ created_at DATETIME NOT NULL,
+ installed_at DATETIME NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;

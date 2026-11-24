@@ -1,0 +1,2802 @@
+{
+    "telegram": {
+        "label": "Telegram",
+        "emoji": "✈️",
+        "id": "6028346797368283073",
+        "position": 1,
+        "keywords": "telegram plane send 发送 飞机"
+    },
+    "search": {
+        "label": "搜索",
+        "emoji": "🔎",
+        "id": "6032850693348399258",
+        "position": 38,
+        "keywords": "search find magnify 查找 放大镜"
+    },
+    "discover": {
+        "label": "发现",
+        "emoji": "🧭",
+        "id": "6030687898141987254",
+        "position": 361,
+        "keywords": "compass explore discover 导航"
+    },
+    "hot": {
+        "label": "趋势",
+        "emoji": "📈",
+        "id": "5938539885907415367",
+        "position": 331,
+        "keywords": "trend hot growth chart 热搜"
+    },
+    "rank": {
+        "label": "榜单",
+        "emoji": "🥇",
+        "id": "6037428784888549034",
+        "position": 143,
+        "keywords": "rank medal leaderboard 榜单"
+    },
+    "channel": {
+        "label": "频道",
+        "emoji": "📣",
+        "id": "6021418126061605425",
+        "position": 105,
+        "keywords": "broadcast announcement channel 公告 频道"
+    },
+    "group": {
+        "label": "群组",
+        "emoji": "👥",
+        "id": "6032609071373226027",
+        "position": 192,
+        "keywords": "group users team members 团队 成员"
+    },
+    "bot": {
+        "label": "机器人",
+        "emoji": "🤖",
+        "id": "6030400221232501136",
+        "position": 71,
+        "keywords": "bot robot automation 自动化"
+    },
+    "video": {
+        "label": "视频",
+        "emoji": "▶️",
+        "id": "5773626993010546707",
+        "position": 62,
+        "keywords": "play video start 视频"
+    },
+    "article": {
+        "label": "图文",
+        "emoji": "🖼",
+        "id": "6030466823290360017",
+        "position": 69,
+        "keywords": "image photo picture 相册 图文"
+    },
+    "audio": {
+        "label": "音乐",
+        "emoji": "🎶",
+        "id": "5938473438468378529",
+        "position": 250,
+        "keywords": "music audio sound 音频"
+    },
+    "file": {
+        "label": "文件",
+        "emoji": "📄",
+        "id": "6037475557082403885",
+        "position": 74,
+        "keywords": "folder category 分类"
+    },
+    "shop": {
+        "label": "店铺",
+        "emoji": "🏪",
+        "id": "5920332557466997677",
+        "position": 346,
+        "keywords": "shop store business 商店"
+    },
+    "other": {
+        "label": "其他",
+        "emoji": "🗂",
+        "id": "5766994197705921104",
+        "position": 24,
+        "keywords": "menu list collection 列表 分类"
+    },
+    "user": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "6035084557378654059",
+        "position": 186,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "help": {
+        "label": "帮助",
+        "emoji": "❓",
+        "id": "6030848053177486888",
+        "position": 60,
+        "keywords": "help question 问号"
+    },
+    "plus": {
+        "label": "添加",
+        "emoji": "➕",
+        "id": "5882207227997066107",
+        "position": 330,
+        "keywords": "plus add more 更多"
+    },
+    "check": {
+        "label": "确认",
+        "emoji": "✅",
+        "id": "5774022692642492953",
+        "position": 65,
+        "keywords": "check done success 完成 勾选"
+    },
+    "close": {
+        "label": "关闭",
+        "emoji": "❌",
+        "id": "5774077015388852135",
+        "position": 64,
+        "keywords": "close cancel clear 删除 取消"
+    },
+    "left": {
+        "label": "上一页",
+        "emoji": "⬅️",
+        "id": "5960671702059848143",
+        "position": 27,
+        "keywords": "left back arrow 返回 上一页"
+    },
+    "right": {
+        "label": "下一页",
+        "emoji": "➡️",
+        "id": "5895383238473421210",
+        "position": 48,
+        "keywords": "right forward arrow 转发 下一页"
+    },
+    "up": {
+        "label": "向上",
+        "emoji": "⬆️",
+        "id": "6028205772117118673",
+        "position": 66,
+        "keywords": "up upload arrow 上传 升级"
+    },
+    "refresh": {
+        "label": "刷新",
+        "emoji": "🔄",
+        "id": "6030657343744644592",
+        "position": 28,
+        "keywords": "repeat refresh reload 刷新"
+    },
+    "settings": {
+        "label": "设置",
+        "emoji": "⚙️",
+        "id": "5904258298764334001",
+        "position": 8,
+        "keywords": "settings preferences gear 齿轮 偏好"
+    },
+    "link": {
+        "label": "链接",
+        "emoji": "🔗",
+        "id": "6028171274939797252",
+        "position": 51,
+        "keywords": "link url connection 连接"
+    },
+    "folder": {
+        "label": "分类",
+        "emoji": "📁",
+        "id": "6039630677182254664",
+        "position": 97,
+        "keywords": "folder open directory 目录"
+    },
+    "archive": {
+        "label": "归档",
+        "emoji": "📥",
+        "id": "6041730074376410123",
+        "position": 101,
+        "keywords": "archive inbox download 收件箱"
+    },
+    "lock": {
+        "label": "权限",
+        "emoji": "🔒",
+        "id": "6037249452824072506",
+        "position": 68,
+        "keywords": "lock privacy permission 权限 隐私"
+    },
+    "logout": {
+        "label": "退出",
+        "emoji": "🚪",
+        "id": "6035130900075777681",
+        "position": 37,
+        "keywords": "logout exit door"
+    },
+    "clock": {
+        "label": "时间",
+        "emoji": "🕓",
+        "id": "5775896410780079073",
+        "position": 137,
+        "keywords": "time clock history 历史"
+    },
+    "chart": {
+        "label": "统计",
+        "emoji": "📊",
+        "id": "5936143551854285132",
+        "position": 333,
+        "keywords": "stats chart analytics 图表"
+    },
+    "menu": {
+        "label": "菜单",
+        "emoji": "🔣",
+        "id": "5766994197705921104",
+        "position": 24,
+        "keywords": "menu list collection 列表 分类"
+    },
+    "edit": {
+        "label": "编辑",
+        "emoji": "✏️",
+        "id": "6039779802741739617",
+        "position": 30,
+        "keywords": "edit pencil compose 铅笔"
+    },
+    "star": {
+        "label": "收藏",
+        "emoji": "⭐️",
+        "id": "6030425896546996257",
+        "position": 72,
+        "keywords": "star favorite 收藏 星星"
+    },
+    "submit": {
+        "label": "提交",
+        "emoji": "📤",
+        "id": "6039573425268201570",
+        "position": 92,
+        "keywords": "upload share export 提交 分享 导出"
+    },
+    "warning": {
+        "label": "提示",
+        "emoji": "❗️",
+        "id": "6030563507299160824",
+        "position": 61,
+        "keywords": "warning alert notice 警告"
+    },
+    "ios_5775870512127283512": {
+        "label": "Apple",
+        "emoji": "🍏",
+        "id": "5775870512127283512",
+        "position": 2,
+        "keywords": "apple ios 苹果"
+    },
+    "ios_6028338546736107668": {
+        "label": "星标",
+        "emoji": "⭐️",
+        "id": "6028338546736107668",
+        "position": 3,
+        "keywords": "star favorite 收藏 星星"
+    },
+    "ios_5767199127775481841": {
+        "label": "星标",
+        "emoji": "⭐️",
+        "id": "5767199127775481841",
+        "position": 4,
+        "keywords": "star favorite 收藏 星星"
+    },
+    "ios_5773677501825945508": {
+        "label": "礼物",
+        "emoji": "🎁",
+        "id": "5773677501825945508",
+        "position": 5,
+        "keywords": "gift present 赠送"
+    },
+    "ios_6035162669948867129": {
+        "label": "快捷操作",
+        "emoji": "🔣",
+        "id": "6035162669948867129",
+        "position": 6,
+        "keywords": "command menu keyboard 菜单 快捷键"
+    },
+    "ios_5942734685976138521": {
+        "label": "电脑",
+        "emoji": "🖥",
+        "id": "5942734685976138521",
+        "position": 7,
+        "keywords": "desktop monitor mac 显示器"
+    },
+    "ios_6032742198179532882": {
+        "label": "设置",
+        "emoji": "⚙",
+        "id": "6032742198179532882",
+        "position": 9,
+        "keywords": "settings preferences gear 齿轮 偏好"
+    },
+    "ios_5850309953293653168": {
+        "label": "设置",
+        "emoji": "⚙️",
+        "id": "5850309953293653168",
+        "position": 10,
+        "keywords": "settings preferences gear 齿轮 偏好"
+    },
+    "ios_5850332476102153487": {
+        "label": "设置",
+        "emoji": "⚙️",
+        "id": "5850332476102153487",
+        "position": 11,
+        "keywords": "settings preferences gear 齿轮 偏好"
+    },
+    "ios_5850392884817172292": {
+        "label": "设置",
+        "emoji": "⚙️",
+        "id": "5850392884817172292",
+        "position": 12,
+        "keywords": "settings preferences gear 齿轮 偏好"
+    },
+    "ios_5850224242926295392": {
+        "label": "设置",
+        "emoji": "⚙️",
+        "id": "5850224242926295392",
+        "position": 13,
+        "keywords": "settings preferences gear 齿轮 偏好"
+    },
+    "ios_5924722061288150929": {
+        "label": "设置",
+        "emoji": "⚙️",
+        "id": "5924722061288150929",
+        "position": 14,
+        "keywords": "settings preferences gear 齿轮 偏好"
+    },
+    "ios_5776424837786374634": {
+        "label": "控制面板",
+        "emoji": "🎛",
+        "id": "5776424837786374634",
+        "position": 15,
+        "keywords": "controls sliders filter 调节 筛选"
+    },
+    "ios_5771449289972650710": {
+        "label": "控制面板",
+        "emoji": "🎛",
+        "id": "5771449289972650710",
+        "position": 16,
+        "keywords": "controls sliders filter 调节 筛选"
+    },
+    "ios_5895519358871932592": {
+        "label": "资讯",
+        "emoji": "📰",
+        "id": "5895519358871932592",
+        "position": 17,
+        "keywords": "news article feed 文章 信息"
+    },
+    "ios_5893444447286334441": {
+        "label": "资讯",
+        "emoji": "📰",
+        "id": "5893444447286334441",
+        "position": 18,
+        "keywords": "news article feed 文章 信息"
+    },
+    "ios_5886437972647088483": {
+        "label": "资讯",
+        "emoji": "📰",
+        "id": "5886437972647088483",
+        "position": 19,
+        "keywords": "news article feed 文章 信息"
+    },
+    "ios_5893236738372932548": {
+        "label": "资讯",
+        "emoji": "📰",
+        "id": "5893236738372932548",
+        "position": 20,
+        "keywords": "news article feed 文章 信息"
+    },
+    "ios_5893057118545646106": {
+        "label": "资讯",
+        "emoji": "📰",
+        "id": "5893057118545646106",
+        "position": 21,
+        "keywords": "news article feed 文章 信息"
+    },
+    "ios_5920046907782074235": {
+        "label": "笔记",
+        "emoji": "📝",
+        "id": "5920046907782074235",
+        "position": 22,
+        "keywords": "note compose message 编辑 消息"
+    },
+    "ios_5922693616953725714": {
+        "label": "笔记",
+        "emoji": "📝",
+        "id": "5922693616953725714",
+        "position": 23,
+        "keywords": "note compose message 编辑 消息"
+    },
+    "ios_5893316448670978477": {
+        "label": "双向箭头",
+        "emoji": "↔️",
+        "id": "5893316448670978477",
+        "position": 25,
+        "keywords": "arrow horizontal 左右 宽度"
+    },
+    "ios_5895534923833413814": {
+        "label": "双向箭头",
+        "emoji": "↔️",
+        "id": "5895534923833413814",
+        "position": 26,
+        "keywords": "arrow horizontal 左右 宽度"
+    },
+    "ios_5938437708635443119": {
+        "label": "双箭头",
+        "emoji": "⏫",
+        "id": "5938437708635443119",
+        "position": 29,
+        "keywords": "double arrow up 向上"
+    },
+    "ios_6039614175917903752": {
+        "label": "编辑",
+        "emoji": "✏",
+        "id": "6039614175917903752",
+        "position": 31,
+        "keywords": "edit pencil compose 铅笔"
+    },
+    "ios_6030757850274336631": {
+        "label": "关闭",
+        "emoji": "❌",
+        "id": "6030757850274336631",
+        "position": 32,
+        "keywords": "close cancel clear 删除 取消"
+    },
+    "ios_6039404727542747508": {
+        "label": "键盘",
+        "emoji": "⌨",
+        "id": "6039404727542747508",
+        "position": 33,
+        "keywords": "keyboard input 输入"
+    },
+    "ios_6039451237743595514": {
+        "label": "附件",
+        "emoji": "📎",
+        "id": "6039451237743595514",
+        "position": 34,
+        "keywords": "attachment clip paperclip"
+    },
+    "ios_5962952497197748583": {
+        "label": "工具",
+        "emoji": "🔧",
+        "id": "5962952497197748583",
+        "position": 35,
+        "keywords": "tool wrench 扳手"
+    },
+    "ios_5940433880585605708": {
+        "label": "锤子",
+        "emoji": "🔨",
+        "id": "5940433880585605708",
+        "position": 36,
+        "keywords": "hammer auction tool 工具"
+    },
+    "ios_5888620056551625531": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5888620056551625531",
+        "position": 39,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5886285355279193209": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5886285355279193209",
+        "position": 40,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5884050696679986441": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5884050696679986441",
+        "position": 41,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5884090188904272855": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5884090188904272855",
+        "position": 42,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5886473311637999700": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5886473311637999700",
+        "position": 43,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5888880224195581055": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5888880224195581055",
+        "position": 44,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5884491244360438851": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5884491244360438851",
+        "position": 45,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5895507195524550741": {
+        "label": "返回",
+        "emoji": "↩️",
+        "id": "5895507195524550741",
+        "position": 46,
+        "keywords": "return reply back 回复"
+    },
+    "ios_6039539366177541657": {
+        "label": "向左",
+        "emoji": "⬅️",
+        "id": "6039539366177541657",
+        "position": 47,
+        "keywords": "left back arrow 返回 上一页"
+    },
+    "ios_6037622221625626773": {
+        "label": "向右",
+        "emoji": "➡️",
+        "id": "6037622221625626773",
+        "position": 49,
+        "keywords": "right forward arrow 转发 下一页"
+    },
+    "ios_6039391078136681499": {
+        "label": "屏幕",
+        "emoji": "📺",
+        "id": "6039391078136681499",
+        "position": 50,
+        "keywords": "screen television video 视频"
+    },
+    "ios_6030864215139422409": {
+        "label": "链接",
+        "emoji": "🔗",
+        "id": "6030864215139422409",
+        "position": 52,
+        "keywords": "link url connection 连接"
+    },
+    "ios_5776078972659962594": {
+        "label": "链接",
+        "emoji": "🔗",
+        "id": "5776078972659962594",
+        "position": 53,
+        "keywords": "link url connection 连接"
+    },
+    "ios_5778455936410588193": {
+        "label": "链接",
+        "emoji": "🔗",
+        "id": "5778455936410588193",
+        "position": 54,
+        "keywords": "link url connection 连接"
+    },
+    "ios_5895364284782743985": {
+        "label": "链接",
+        "emoji": "🔗",
+        "id": "5895364284782743985",
+        "position": 55,
+        "keywords": "link url connection 连接"
+    },
+    "ios_5769289093221454192": {
+        "label": "链接",
+        "emoji": "🔗",
+        "id": "5769289093221454192",
+        "position": 56,
+        "keywords": "link url connection 连接"
+    },
+    "ios_5766902139376898645": {
+        "label": "链接",
+        "emoji": "🔗",
+        "id": "5766902139376898645",
+        "position": 57,
+        "keywords": "link url connection 连接"
+    },
+    "ios_6032924188828767321": {
+        "label": "添加",
+        "emoji": "➕",
+        "id": "6032924188828767321",
+        "position": 58,
+        "keywords": "plus add more 更多"
+    },
+    "ios_6028435952299413210": {
+        "label": "信息",
+        "emoji": "ℹ",
+        "id": "6028435952299413210",
+        "position": 59,
+        "keywords": "info information about 关于"
+    },
+    "ios_5850346984501680054": {
+        "label": "播放",
+        "emoji": "▶️",
+        "id": "5850346984501680054",
+        "position": 63,
+        "keywords": "play video start 视频"
+    },
+    "ios_6037496202990194718": {
+        "label": "解锁",
+        "emoji": "🔓",
+        "id": "6037496202990194718",
+        "position": 67,
+        "keywords": "unlock open lock"
+    },
+    "ios_6035128606563241721": {
+        "label": "图片",
+        "emoji": "🖼",
+        "id": "6035128606563241721",
+        "position": 70,
+        "keywords": "image photo picture 相册 图文"
+    },
+    "ios_6030680867280522811": {
+        "label": "星标",
+        "emoji": "⭐️",
+        "id": "6030680867280522811",
+        "position": 73,
+        "keywords": "star favorite 收藏 星星"
+    },
+    "ios_5904219717073114606": {
+        "label": "文件夹",
+        "emoji": "📁",
+        "id": "5904219717073114606",
+        "position": 75,
+        "keywords": "folder category 分类"
+    },
+    "ios_6034969813032374911": {
+        "label": "文件",
+        "emoji": "📄",
+        "id": "6034969813032374911",
+        "position": 76,
+        "keywords": "file document 文档"
+    },
+    "ios_6039522349517115015": {
+        "label": "删除",
+        "emoji": "🗑",
+        "id": "6039522349517115015",
+        "position": 77,
+        "keywords": "trash delete remove 回收站"
+    },
+    "ios_6037364759811068375": {
+        "label": "音乐",
+        "emoji": "🎶",
+        "id": "6037364759811068375",
+        "position": 78,
+        "keywords": "music audio sound 音频"
+    },
+    "ios_6037460610596212193": {
+        "label": "音乐",
+        "emoji": "🎶",
+        "id": "6037460610596212193",
+        "position": 79,
+        "keywords": "music audio sound 音频"
+    },
+    "ios_6037397706505195857": {
+        "label": "可见性",
+        "emoji": "👁",
+        "id": "6037397706505195857",
+        "position": 80,
+        "keywords": "eye view visible 查看 预览"
+    },
+    "ios_6037243349675544634": {
+        "label": "可见性",
+        "emoji": "👁",
+        "id": "6037243349675544634",
+        "position": 81,
+        "keywords": "eye view visible 查看 预览"
+    },
+    "ios_5884097155341226387": {
+        "label": "可见性",
+        "emoji": "👁",
+        "id": "5884097155341226387",
+        "position": 82,
+        "keywords": "eye view visible 查看 预览"
+    },
+    "ios_5935757052042285202": {
+        "label": "可见性",
+        "emoji": "👁",
+        "id": "5935757052042285202",
+        "position": 83,
+        "keywords": "eye view visible 查看 预览"
+    },
+    "ios_6037157012242960559": {
+        "label": "向下",
+        "emoji": "⬇️",
+        "id": "6037157012242960559",
+        "position": 84,
+        "keywords": "down download arrow 下载"
+    },
+    "ios_5884218166044791498": {
+        "label": "向下",
+        "emoji": "⬇️",
+        "id": "5884218166044791498",
+        "position": 85,
+        "keywords": "down download arrow 下载"
+    },
+    "ios_6039802767931871481": {
+        "label": "向下",
+        "emoji": "⬇️",
+        "id": "6039802767931871481",
+        "position": 86,
+        "keywords": "down download arrow 下载"
+    },
+    "ios_6028115612163641653": {
+        "label": "云端",
+        "emoji": "☁",
+        "id": "6028115612163641653",
+        "position": 87,
+        "keywords": "cloud storage 云存储"
+    },
+    "ios_6032745346390560408": {
+        "label": "向下",
+        "emoji": "⬇️",
+        "id": "6032745346390560408",
+        "position": 88,
+        "keywords": "down download arrow 下载"
+    },
+    "ios_5963103826075456248": {
+        "label": "向上",
+        "emoji": "⬆️",
+        "id": "5963103826075456248",
+        "position": 89,
+        "keywords": "up upload arrow 上传 升级"
+    },
+    "ios_5963087934696459905": {
+        "label": "向下",
+        "emoji": "⬇️",
+        "id": "5963087934696459905",
+        "position": 90,
+        "keywords": "down download arrow 下载"
+    },
+    "ios_6039391666547201160": {
+        "label": "向上",
+        "emoji": "⬆️",
+        "id": "6039391666547201160",
+        "position": 91,
+        "keywords": "up upload arrow 上传 升级"
+    },
+    "ios_5776288820467077551": {
+        "label": "向上",
+        "emoji": "⬆️",
+        "id": "5776288820467077551",
+        "position": 93,
+        "keywords": "up upload arrow 上传 升级"
+    },
+    "ios_6030537007350944596": {
+        "label": "安全",
+        "emoji": "🛡",
+        "id": "6030537007350944596",
+        "position": 94,
+        "keywords": "shield security protection 盾牌"
+    },
+    "ios_6032636795387121097": {
+        "label": "安全",
+        "emoji": "🛡",
+        "id": "6032636795387121097",
+        "position": 95,
+        "keywords": "shield security protection 盾牌"
+    },
+    "ios_6030445631921721471": {
+        "label": "安全",
+        "emoji": "🛡",
+        "id": "6030445631921721471",
+        "position": 96,
+        "keywords": "shield security protection 盾牌"
+    },
+    "ios_6039800856671424701": {
+        "label": "打开文件夹",
+        "emoji": "📂",
+        "id": "6039800856671424701",
+        "position": 98,
+        "keywords": "folder open directory 目录"
+    },
+    "ios_6037373985400819577": {
+        "label": "打开文件夹",
+        "emoji": "📂",
+        "id": "6037373985400819577",
+        "position": 99,
+        "keywords": "folder open directory 目录"
+    },
+    "ios_6039348811363520645": {
+        "label": "打开文件夹",
+        "emoji": "📂",
+        "id": "6039348811363520645",
+        "position": 100,
+        "keywords": "folder open directory 目录"
+    },
+    "ios_6039400853482246862": {
+        "label": "归档",
+        "emoji": "📥",
+        "id": "6039400853482246862",
+        "position": 102,
+        "keywords": "archive inbox download 收件箱"
+    },
+    "ios_6039420807900303010": {
+        "label": "归档",
+        "emoji": "📥",
+        "id": "6039420807900303010",
+        "position": 103,
+        "keywords": "archive inbox download 收件箱"
+    },
+    "ios_6043874504302661409": {
+        "label": "上传",
+        "emoji": "📤",
+        "id": "6043874504302661409",
+        "position": 104,
+        "keywords": "upload share export 提交 分享 导出"
+    },
+    "ios_6021681257232994766": {
+        "label": "广播",
+        "emoji": "📢",
+        "id": "6021681257232994766",
+        "position": 106,
+        "keywords": "broadcast announcement channel 公告 频道"
+    },
+    "ios_6039381989985882045": {
+        "label": "广播",
+        "emoji": "📢",
+        "id": "6039381989985882045",
+        "position": 107,
+        "keywords": "broadcast announcement channel 公告 频道"
+    },
+    "ios_6039450962865688331": {
+        "label": "频道",
+        "emoji": "📣",
+        "id": "6039450962865688331",
+        "position": 108,
+        "keywords": "channel megaphone broadcast 喇叭 广播"
+    },
+    "ios_6039422865189638057": {
+        "label": "频道",
+        "emoji": "📣",
+        "id": "6039422865189638057",
+        "position": 109,
+        "keywords": "channel megaphone broadcast 喇叭 广播"
+    },
+    "ios_6039454987250044861": {
+        "label": "音量",
+        "emoji": "🔊",
+        "id": "6039454987250044861",
+        "position": 110,
+        "keywords": "volume sound speaker 扬声器"
+    },
+    "ios_6039505337151655702": {
+        "label": "静音",
+        "emoji": "🔇",
+        "id": "6039505337151655702",
+        "position": 111,
+        "keywords": "mute sound off"
+    },
+    "ios_6039853100653612987": {
+        "label": "扬声器",
+        "emoji": "🔈",
+        "id": "6039853100653612987",
+        "position": 112,
+        "keywords": "speaker sound volume 声音"
+    },
+    "ios_6039486778597970865": {
+        "label": "通知",
+        "emoji": "🔔",
+        "id": "6039486778597970865",
+        "position": 113,
+        "keywords": "notification bell 铃铛"
+    },
+    "ios_6039569594157371705": {
+        "label": "关闭通知",
+        "emoji": "🔕",
+        "id": "6039569594157371705",
+        "position": 114,
+        "keywords": "notification mute silent 静音"
+    },
+    "ios_6039636621416993073": {
+        "label": "通知",
+        "emoji": "🔔",
+        "id": "6039636621416993073",
+        "position": 115,
+        "keywords": "notification bell 铃铛"
+    },
+    "ios_6039677157318332604": {
+        "label": "通知",
+        "emoji": "🔔",
+        "id": "6039677157318332604",
+        "position": 116,
+        "keywords": "notification bell 铃铛"
+    },
+    "ios_6030506650522096180": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "6030506650522096180",
+        "position": 117,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_6030506384234123289": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "6030506384234123289",
+        "position": 118,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_5944753741512052670": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "5944753741512052670",
+        "position": 119,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_5944969250086063864": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "5944969250086063864",
+        "position": 120,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_6048390817033228573": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "6048390817033228573",
+        "position": 121,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_6048808236314791508": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "6048808236314791508",
+        "position": 122,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_6048896442058150625": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "6048896442058150625",
+        "position": 123,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_5778549588172477436": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "5778549588172477436",
+        "position": 124,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_5944777041709633960": {
+        "label": "影片",
+        "emoji": "🎞",
+        "id": "5944777041709633960",
+        "position": 125,
+        "keywords": "film video frames 视频"
+    },
+    "ios_5945123916153360580": {
+        "label": "影片",
+        "emoji": "🎞",
+        "id": "5945123916153360580",
+        "position": 126,
+        "keywords": "film video frames 视频"
+    },
+    "ios_6037533152593842454": {
+        "label": "喜欢",
+        "emoji": "❤️",
+        "id": "6037533152593842454",
+        "position": 127,
+        "keywords": "heart like favorite 爱心 收藏"
+    },
+    "ios_6035127296598217030": {
+        "label": "喜欢",
+        "emoji": "❤️",
+        "id": "6035127296598217030",
+        "position": 128,
+        "keywords": "heart like favorite 爱心 收藏"
+    },
+    "ios_6037286673010660132": {
+        "label": "阅读",
+        "emoji": "📖",
+        "id": "6037286673010660132",
+        "position": 129,
+        "keywords": "book read story 书籍"
+    },
+    "ios_6039584437564347225": {
+        "label": "阅读",
+        "emoji": "📖",
+        "id": "6039584437564347225",
+        "position": 130,
+        "keywords": "book read story 书籍"
+    },
+    "ios_6039519841256214245": {
+        "label": "向左",
+        "emoji": "⬅️",
+        "id": "6039519841256214245",
+        "position": 131,
+        "keywords": "left back arrow 返回 上一页"
+    },
+    "ios_5767117162619605573": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "5767117162619605573",
+        "position": 132,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_5904340783611254165": {
+        "label": "图片",
+        "emoji": "🖼",
+        "id": "5904340783611254165",
+        "position": 133,
+        "keywords": "image photo picture 相册 图文"
+    },
+    "ios_6035231690073314447": {
+        "label": "数字 5",
+        "emoji": "5️⃣",
+        "id": "6035231690073314447",
+        "position": 134,
+        "keywords": "number five"
+    },
+    "ios_6034847960515219908": {
+        "label": "数字 2",
+        "emoji": "2️⃣",
+        "id": "6034847960515219908",
+        "position": 135,
+        "keywords": "number two"
+    },
+    "ios_5850317551090800862": {
+        "label": "闹钟",
+        "emoji": "⏰",
+        "id": "5850317551090800862",
+        "position": 136,
+        "keywords": "alarm clock reminder 提醒"
+    },
+    "ios_5843679481566335204": {
+        "label": "足迹",
+        "emoji": "👣",
+        "id": "5843679481566335204",
+        "position": 138,
+        "keywords": "footprint history walk"
+    },
+    "ios_5843596438373667352": {
+        "label": "确认",
+        "emoji": "✅️",
+        "id": "5843596438373667352",
+        "position": 139,
+        "keywords": "check done success 完成 勾选"
+    },
+    "ios_6037268453759389862": {
+        "label": "计时器",
+        "emoji": "⏲️",
+        "id": "6037268453759389862",
+        "position": 140,
+        "keywords": "timer countdown time 倒计时"
+    },
+    "ios_5983150113483134607": {
+        "label": "闹钟",
+        "emoji": "⏰️",
+        "id": "5983150113483134607",
+        "position": 141,
+        "keywords": "alarm clock reminder 提醒"
+    },
+    "ios_5769230088960741619": {
+        "label": "计时器",
+        "emoji": "⏲️",
+        "id": "5769230088960741619",
+        "position": 142,
+        "keywords": "timer countdown time 倒计时"
+    },
+    "ios_5940515192906456099": {
+        "label": "数字 1",
+        "emoji": "1️⃣",
+        "id": "5940515192906456099",
+        "position": 144,
+        "keywords": "number one"
+    },
+    "ios_5940420518942347102": {
+        "label": "数字 2",
+        "emoji": "2️⃣",
+        "id": "5940420518942347102",
+        "position": 145,
+        "keywords": "number two"
+    },
+    "ios_5886579539064132088": {
+        "label": "摄像",
+        "emoji": "🎥",
+        "id": "5886579539064132088",
+        "position": 146,
+        "keywords": "video camera recording 录像"
+    },
+    "ios_5884252508603289902": {
+        "label": "摄像",
+        "emoji": "🎥",
+        "id": "5884252508603289902",
+        "position": 147,
+        "keywords": "video camera recording 录像"
+    },
+    "ios_5884351885556585857": {
+        "label": "摄像",
+        "emoji": "🎥",
+        "id": "5884351885556585857",
+        "position": 148,
+        "keywords": "video camera recording 录像"
+    },
+    "ios_6030722571412967168": {
+        "label": "麦克风",
+        "emoji": "🎤",
+        "id": "6030722571412967168",
+        "position": 149,
+        "keywords": "microphone mic voice 语音"
+    },
+    "ios_6030467682283818947": {
+        "label": "语音",
+        "emoji": "🎙",
+        "id": "6030467682283818947",
+        "position": 150,
+        "keywords": "microphone podcast voice 麦克风 播客"
+    },
+    "ios_5933678317935791830": {
+        "label": "麦克风",
+        "emoji": "🎤",
+        "id": "5933678317935791830",
+        "position": 151,
+        "keywords": "microphone mic voice 语音"
+    },
+    "ios_6039605143601680423": {
+        "label": "通话",
+        "emoji": "📞",
+        "id": "6039605143601680423",
+        "position": 152,
+        "keywords": "phone call 电话"
+    },
+    "ios_6037418554276452311": {
+        "label": "通话",
+        "emoji": "📞",
+        "id": "6037418554276452311",
+        "position": 153,
+        "keywords": "phone call 电话"
+    },
+    "ios_6039398100408209720": {
+        "label": "电话",
+        "emoji": "☎️",
+        "id": "6039398100408209720",
+        "position": 154,
+        "keywords": "telephone phone call"
+    },
+    "ios_5983580310292402968": {
+        "label": "机器人",
+        "emoji": "🤖",
+        "id": "5983580310292402968",
+        "position": 155,
+        "keywords": "bot robot automation 自动化"
+    },
+    "ios_6030784887093464891": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6030784887093464891",
+        "position": 156,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_6030622631818956594": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6030622631818956594",
+        "position": 157,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_6030833407339008632": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6030833407339008632",
+        "position": 158,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_6030329749409108167": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6030329749409108167",
+        "position": 159,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_6030512294109122096": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6030512294109122096",
+        "position": 160,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_6030776052345737530": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6030776052345737530",
+        "position": 161,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_6034831751308644168": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6034831751308644168",
+        "position": 162,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_5891120964468480450": {
+        "label": "灵感",
+        "emoji": "💡",
+        "id": "5891120964468480450",
+        "position": 163,
+        "keywords": "idea bulb light 灯泡"
+    },
+    "ios_6037421444789440735": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6037421444789440735",
+        "position": 164,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_5904248647972820334": {
+        "label": "想法",
+        "emoji": "💭",
+        "id": "5904248647972820334",
+        "position": 165,
+        "keywords": "thought bubble chat 气泡"
+    },
+    "ios_6037254263187443802": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6037254263187443802",
+        "position": 166,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_6035305550625902723": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6035305550625902723",
+        "position": 167,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_6021618194228187816": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "6021618194228187816",
+        "position": 168,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_5983401171501454028": {
+        "label": "休息",
+        "emoji": "💤",
+        "id": "5983401171501454028",
+        "position": 169,
+        "keywords": "sleep snooze quiet 免打扰"
+    },
+    "ios_5778208881301787450": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "5778208881301787450",
+        "position": 170,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_5767244474040192942": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "5767244474040192942",
+        "position": 171,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_5767388406984216738": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "5767388406984216738",
+        "position": 172,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_5776182936638329359": {
+        "label": "归档",
+        "emoji": "📥",
+        "id": "5776182936638329359",
+        "position": 173,
+        "keywords": "archive inbox download 收件箱"
+    },
+    "ios_5843918217323484232": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "5843918217323484232",
+        "position": 174,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_5936035091045159318": {
+        "label": "聊天",
+        "emoji": "💬",
+        "id": "5936035091045159318",
+        "position": 175,
+        "keywords": "chat message bubble conversation 消息 气泡"
+    },
+    "ios_5776227595708273495": {
+        "label": "锁定",
+        "emoji": "🔒",
+        "id": "5776227595708273495",
+        "position": 176,
+        "keywords": "lock privacy permission 权限 隐私"
+    },
+    "ios_5778570255555105942": {
+        "label": "锁定",
+        "emoji": "🔒",
+        "id": "5778570255555105942",
+        "position": 177,
+        "keywords": "lock privacy permission 权限 隐私"
+    },
+    "ios_5922610170034132416": {
+        "label": "年龄限制",
+        "emoji": "🔞",
+        "id": "5922610170034132416",
+        "position": 178,
+        "keywords": "age restriction adult 18"
+    },
+    "ios_5920137394153067262": {
+        "label": "年龄限制",
+        "emoji": "🔞",
+        "id": "5920137394153067262",
+        "position": 179,
+        "keywords": "age restriction adult 18"
+    },
+    "ios_6030399199030284183": {
+        "label": "位置",
+        "emoji": "📍",
+        "id": "6030399199030284183",
+        "position": 180,
+        "keywords": "location pin map 地图 定位"
+    },
+    "ios_6030418144131026917": {
+        "label": "位置",
+        "emoji": "📍",
+        "id": "6030418144131026917",
+        "position": 181,
+        "keywords": "location pin map 地图 定位"
+    },
+    "ios_6032994772321309200": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "6032994772321309200",
+        "position": 182,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_6032693626394382504": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "6032693626394382504",
+        "position": 183,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_5767278056389480519": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "5767278056389480519",
+        "position": 184,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_5766915217552315762": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "5766915217552315762",
+        "position": 185,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_5893192487324880883": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "5893192487324880883",
+        "position": 187,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_6035191085452497972": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "6035191085452497972",
+        "position": 188,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_6033108709213736873": {
+        "label": "添加",
+        "emoji": "➕",
+        "id": "6033108709213736873",
+        "position": 189,
+        "keywords": "plus add more 更多"
+    },
+    "ios_5891207662678317861": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "5891207662678317861",
+        "position": 190,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_6032653721853234759": {
+        "label": "发言",
+        "emoji": "🗣",
+        "id": "6032653721853234759",
+        "position": 191,
+        "keywords": "speak voice user 语音 用户"
+    },
+    "ios_5879905000972358125": {
+        "label": "群组",
+        "emoji": "👥",
+        "id": "5879905000972358125",
+        "position": 193,
+        "keywords": "group users team members 团队 成员"
+    },
+    "ios_6033125983572201397": {
+        "label": "群组",
+        "emoji": "👥",
+        "id": "6033125983572201397",
+        "position": 194,
+        "keywords": "group users team members 团队 成员"
+    },
+    "ios_6032594876506312598": {
+        "label": "群组",
+        "emoji": "👥",
+        "id": "6032594876506312598",
+        "position": 195,
+        "keywords": "group users team members 团队 成员"
+    },
+    "ios_6041685260687642937": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "6041685260687642937",
+        "position": 196,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_6032608126480421344": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "6032608126480421344",
+        "position": 197,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_6032949275732742941": {
+        "label": "目标",
+        "emoji": "🎯",
+        "id": "6032949275732742941",
+        "position": 198,
+        "keywords": "target focus dart 聚焦"
+    },
+    "ios_5938196735200333756": {
+        "label": "群组",
+        "emoji": "👥",
+        "id": "5938196735200333756",
+        "position": 199,
+        "keywords": "group users team members 团队 成员"
+    },
+    "ios_5778145208411624388": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "5778145208411624388",
+        "position": 200,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_5904630315946611415": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "5904630315946611415",
+        "position": 201,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_6032644646587338669": {
+        "label": "礼物",
+        "emoji": "🎁",
+        "id": "6032644646587338669",
+        "position": 202,
+        "keywords": "gift present 赠送"
+    },
+    "ios_6037175527846975726": {
+        "label": "礼物",
+        "emoji": "🎁",
+        "id": "6037175527846975726",
+        "position": 203,
+        "keywords": "gift present 赠送"
+    },
+    "ios_6034923938486684992": {
+        "label": "星标",
+        "emoji": "⭐️",
+        "id": "6034923938486684992",
+        "position": 204,
+        "keywords": "star favorite 收藏 星星"
+    },
+    "ios_6032625495328165724": {
+        "label": "面具",
+        "emoji": "🎭",
+        "id": "6032625495328165724",
+        "position": 205,
+        "keywords": "mask anonymous theater 匿名"
+    },
+    "ios_6032914237389541410": {
+        "label": "面具",
+        "emoji": "🎭",
+        "id": "6032914237389541410",
+        "position": 206,
+        "keywords": "mask anonymous theater 匿名"
+    },
+    "ios_6032882536235932111": {
+        "label": "面具",
+        "emoji": "🎭",
+        "id": "6032882536235932111",
+        "position": 207,
+        "keywords": "mask anonymous theater 匿名"
+    },
+    "ios_5774034804450267485": {
+        "label": "微笑",
+        "emoji": "🙂",
+        "id": "5774034804450267485",
+        "position": 208,
+        "keywords": "smile emoji happy 表情"
+    },
+    "ios_5778197572652897847": {
+        "label": "难过",
+        "emoji": "🙁",
+        "id": "5778197572652897847",
+        "position": 209,
+        "keywords": "sad unhappy emoji 表情"
+    },
+    "ios_6028315147754278596": {
+        "label": "微笑",
+        "emoji": "🙂",
+        "id": "6028315147754278596",
+        "position": 210,
+        "keywords": "smile emoji happy 表情"
+    },
+    "ios_6039496266180726678": {
+        "label": "微笑",
+        "emoji": "🙂",
+        "id": "6039496266180726678",
+        "position": 211,
+        "keywords": "smile emoji happy 表情"
+    },
+    "ios_6039587087559168309": {
+        "label": "微笑",
+        "emoji": "🙂",
+        "id": "6039587087559168309",
+        "position": 212,
+        "keywords": "smile emoji happy 表情"
+    },
+    "ios_6043996047582170909": {
+        "label": "开心",
+        "emoji": "😀",
+        "id": "6043996047582170909",
+        "position": 213,
+        "keywords": "happy smile emoji 表情"
+    },
+    "ios_5935824500208702046": {
+        "label": "开心",
+        "emoji": "😀",
+        "id": "5935824500208702046",
+        "position": 214,
+        "keywords": "happy smile emoji 表情"
+    },
+    "ios_6043847274210005137": {
+        "label": "吐舌",
+        "emoji": "😝",
+        "id": "6043847274210005137",
+        "position": 215,
+        "keywords": "tongue emoji smile 表情"
+    },
+    "ios_6043960760130868895": {
+        "label": "思考",
+        "emoji": "🤔",
+        "id": "6043960760130868895",
+        "position": 216,
+        "keywords": "think emoji question 表情"
+    },
+    "ios_6041748912102968702": {
+        "label": "平静",
+        "emoji": "😐",
+        "id": "6041748912102968702",
+        "position": 217,
+        "keywords": "neutral emoji face 表情"
+    },
+    "ios_6043973168291384891": {
+        "label": "惊讶",
+        "emoji": "😨",
+        "id": "6043973168291384891",
+        "position": 218,
+        "keywords": "surprise fear emoji 表情"
+    },
+    "ios_6042029429301973188": {
+        "label": "不开心",
+        "emoji": "☹️",
+        "id": "6042029429301973188",
+        "position": 219,
+        "keywords": "frown sad emoji 表情"
+    },
+    "ios_6044118213631938928": {
+        "label": "生气",
+        "emoji": "😡",
+        "id": "6044118213631938928",
+        "position": 220,
+        "keywords": "angry emoji face 表情"
+    },
+    "ios_6039565797406282001": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "6039565797406282001",
+        "position": 221,
+        "keywords": "tag label price 价格"
+    },
+    "ios_6044004057696177711": {
+        "label": "小熊",
+        "emoji": "🐻",
+        "id": "6044004057696177711",
+        "position": 222,
+        "keywords": "bear animal sticker 贴纸"
+    },
+    "ios_6041731551845159060": {
+        "label": "庆祝",
+        "emoji": "🎉",
+        "id": "6041731551845159060",
+        "position": 223,
+        "keywords": "party celebration confetti"
+    },
+    "ios_6041921818896372382": {
+        "label": "招手",
+        "emoji": "👋",
+        "id": "6041921818896372382",
+        "position": 224,
+        "keywords": "wave hello hand 欢迎"
+    },
+    "ios_6041720006973067267": {
+        "label": "赞",
+        "emoji": "👍",
+        "id": "6041720006973067267",
+        "position": 225,
+        "keywords": "like thumbs up 点赞"
+    },
+    "ios_6041716699848249286": {
+        "label": "不赞",
+        "emoji": "👎",
+        "id": "6041716699848249286",
+        "position": 226,
+        "keywords": "dislike thumbs down"
+    },
+    "ios_5886676966102274844": {
+        "label": "点击",
+        "emoji": "👆",
+        "id": "5886676966102274844",
+        "position": 227,
+        "keywords": "tap click finger 手指"
+    },
+    "ios_5886583490434044162": {
+        "label": "点击",
+        "emoji": "👆",
+        "id": "5886583490434044162",
+        "position": 228,
+        "keywords": "tap click finger 手指"
+    },
+    "ios_5886593849895163292": {
+        "label": "点击",
+        "emoji": "👆",
+        "id": "5886593849895163292",
+        "position": 229,
+        "keywords": "tap click finger 手指"
+    },
+    "ios_5884106131822875141": {
+        "label": "点击",
+        "emoji": "👆",
+        "id": "5884106131822875141",
+        "position": 230,
+        "keywords": "tap click finger 手指"
+    },
+    "ios_5891184096192763888": {
+        "label": "举手",
+        "emoji": "✋️",
+        "id": "5891184096192763888",
+        "position": 231,
+        "keywords": "hand raise stop"
+    },
+    "ios_5938215362473496448": {
+        "label": "禁止",
+        "emoji": "🚫",
+        "id": "5938215362473496448",
+        "position": 232,
+        "keywords": "ban block stop 屏蔽"
+    },
+    "ios_5994417835630137549": {
+        "label": "鼓掌",
+        "emoji": "👏",
+        "id": "5994417835630137549",
+        "position": 233,
+        "keywords": "clap applause hands"
+    },
+    "ios_5985478698722136468": {
+        "label": "招手",
+        "emoji": "👋",
+        "id": "5985478698722136468",
+        "position": 234,
+        "keywords": "wave hello hand 欢迎"
+    },
+    "ios_6041874690220233085": {
+        "label": "食物",
+        "emoji": "🍔",
+        "id": "6041874690220233085",
+        "position": 235,
+        "keywords": "food burger 餐饮 汉堡"
+    },
+    "ios_5922305158636639117": {
+        "label": "生日",
+        "emoji": "🎂",
+        "id": "5922305158636639117",
+        "position": 236,
+        "keywords": "birthday cake 蛋糕"
+    },
+    "ios_5922681543800655962": {
+        "label": "生日",
+        "emoji": "🎂",
+        "id": "5922681543800655962",
+        "position": 237,
+        "keywords": "birthday cake 蛋糕"
+    },
+    "ios_6041963669057703997": {
+        "label": "浴缸",
+        "emoji": "🛁",
+        "id": "6041963669057703997",
+        "position": 238,
+        "keywords": "bath bathroom"
+    },
+    "ios_6041923781696426657": {
+        "label": "旗帜",
+        "emoji": "🏳️",
+        "id": "6041923781696426657",
+        "position": 239,
+        "keywords": "flag report 举报"
+    },
+    "ios_6042098561095570207": {
+        "label": "标牌",
+        "emoji": "🪧",
+        "id": "6042098561095570207",
+        "position": 240,
+        "keywords": "sign placard 标志"
+    },
+    "ios_6041933986538721961": {
+        "label": "休闲",
+        "emoji": "⛱️",
+        "id": "6041933986538721961",
+        "position": 241,
+        "keywords": "beach umbrella vacation 假期"
+    },
+    "ios_6042011682497106307": {
+        "label": "位置",
+        "emoji": "📍",
+        "id": "6042011682497106307",
+        "position": 242,
+        "keywords": "location pin map 地图 定位"
+    },
+    "ios_5983099415689171511": {
+        "label": "位置",
+        "emoji": "📍",
+        "id": "5983099415689171511",
+        "position": 243,
+        "keywords": "location pin map 地图 定位"
+    },
+    "ios_5904650558127478452": {
+        "label": "地图",
+        "emoji": "🗺",
+        "id": "5904650558127478452",
+        "position": 244,
+        "keywords": "map travel navigation 导航"
+    },
+    "ios_6042137469204303531": {
+        "label": "首页",
+        "emoji": "🏠",
+        "id": "6042137469204303531",
+        "position": 245,
+        "keywords": "home house 主页"
+    },
+    "ios_5938537205847822613": {
+        "label": "住宅",
+        "emoji": "🏡",
+        "id": "5938537205847822613",
+        "position": 246,
+        "keywords": "house home garden 家"
+    },
+    "ios_5938492039971737551": {
+        "label": "工作",
+        "emoji": "💼",
+        "id": "5938492039971737551",
+        "position": 247,
+        "keywords": "work briefcase business 商务"
+    },
+    "ios_5938195768832692153": {
+        "label": "教育",
+        "emoji": "🎓",
+        "id": "5938195768832692153",
+        "position": 248,
+        "keywords": "education graduation school 学习"
+    },
+    "ios_5882223295469722324": {
+        "label": "眼镜",
+        "emoji": "👓",
+        "id": "5882223295469722324",
+        "position": 249,
+        "keywords": "glasses reading 阅读"
+    },
+    "ios_5767356727305441799": {
+        "label": "游戏道具",
+        "emoji": "🔫",
+        "id": "5767356727305441799",
+        "position": 251,
+        "keywords": "game toy gun"
+    },
+    "ios_5937999673510858217": {
+        "label": "影片",
+        "emoji": "🎞",
+        "id": "5937999673510858217",
+        "position": 252,
+        "keywords": "film video frames 视频"
+    },
+    "ios_5938413566624272793": {
+        "label": "游戏",
+        "emoji": "🎮",
+        "id": "5938413566624272793",
+        "position": 253,
+        "keywords": "game controller 手柄"
+    },
+    "ios_6042069608721027027": {
+        "label": "体育",
+        "emoji": "⚽️",
+        "id": "6042069608721027027",
+        "position": 254,
+        "keywords": "sport football soccer 足球"
+    },
+    "ios_5884332803016891855": {
+        "label": "圆形",
+        "emoji": "⚪️",
+        "id": "5884332803016891855",
+        "position": 255,
+        "keywords": "circle round shape"
+    },
+    "ios_5884089033558070257": {
+        "label": "方形",
+        "emoji": "⬜️",
+        "id": "5884089033558070257",
+        "position": 256,
+        "keywords": "square shape"
+    },
+    "ios_5884094183223857554": {
+        "label": "圆形",
+        "emoji": "⚪️",
+        "id": "5884094183223857554",
+        "position": 257,
+        "keywords": "circle round shape"
+    },
+    "ios_5938368005611195877": {
+        "label": "喜欢",
+        "emoji": "❤️",
+        "id": "5938368005611195877",
+        "position": 258,
+        "keywords": "heart like favorite 爱心 收藏"
+    },
+    "ios_5884330496619450755": {
+        "label": "云端",
+        "emoji": "☁️",
+        "id": "5884330496619450755",
+        "position": 259,
+        "keywords": "cloud storage 云存储"
+    },
+    "ios_5886685105065300941": {
+        "label": "星标",
+        "emoji": "⭐️",
+        "id": "5886685105065300941",
+        "position": 260,
+        "keywords": "star favorite 收藏 星星"
+    },
+    "ios_5938071395169734715": {
+        "label": "禁止",
+        "emoji": "🚫",
+        "id": "5938071395169734715",
+        "position": 261,
+        "keywords": "ban block stop 屏蔽"
+    },
+    "ios_5881806211195605908": {
+        "label": "快照",
+        "emoji": "📸",
+        "id": "5881806211195605908",
+        "position": 262,
+        "keywords": "camera snapshot flash 拍照 闪光"
+    },
+    "ios_5879995903955179148": {
+        "label": "快照",
+        "emoji": "📸",
+        "id": "5879995903955179148",
+        "position": 263,
+        "keywords": "camera snapshot flash 拍照 闪光"
+    },
+    "ios_5884428842780594914": {
+        "label": "闪电",
+        "emoji": "⚡",
+        "id": "5884428842780594914",
+        "position": 264,
+        "keywords": "flash lightning boost 快速 加速"
+    },
+    "ios_5920515922505765329": {
+        "label": "闪电",
+        "emoji": "⚡️",
+        "id": "5920515922505765329",
+        "position": 265,
+        "keywords": "flash lightning boost 快速 加速"
+    },
+    "ios_5922272602784534896": {
+        "label": "闪电",
+        "emoji": "⚡️",
+        "id": "5922272602784534896",
+        "position": 266,
+        "keywords": "flash lightning boost 快速 加速"
+    },
+    "ios_5769248574499983619": {
+        "label": "刷新",
+        "emoji": "🔄",
+        "id": "5769248574499983619",
+        "position": 267,
+        "keywords": "refresh sync reload 同步"
+    },
+    "ios_5924498929147189381": {
+        "label": "话题",
+        "emoji": "#️⃣",
+        "id": "5924498929147189381",
+        "position": 268,
+        "keywords": "hashtag topic number 井号"
+    },
+    "ios_5891104106721844396": {
+        "label": "话题",
+        "emoji": "#️⃣",
+        "id": "5891104106721844396",
+        "position": 269,
+        "keywords": "hashtag topic number 井号"
+    },
+    "ios_5850693253355017860": {
+        "label": "话题",
+        "emoji": "#️⃣",
+        "id": "5850693253355017860",
+        "position": 270,
+        "keywords": "hashtag topic number 井号"
+    },
+    "ios_5767288287001580715": {
+        "label": "灵感",
+        "emoji": "💡",
+        "id": "5767288287001580715",
+        "position": 271,
+        "keywords": "idea bulb light 灯泡"
+    },
+    "ios_5938525265838739643": {
+        "label": "亮度",
+        "emoji": "☀️",
+        "id": "5938525265838739643",
+        "position": 272,
+        "keywords": "sun light brightness 太阳"
+    },
+    "ios_5938342819922973434": {
+        "label": "月亮",
+        "emoji": "🌝",
+        "id": "5938342819922973434",
+        "position": 273,
+        "keywords": "moon face night 夜间"
+    },
+    "ios_6041919344995209164": {
+        "label": "确认",
+        "emoji": "✅",
+        "id": "6041919344995209164",
+        "position": 274,
+        "keywords": "check done success 完成 勾选"
+    },
+    "ios_6044356915029348425": {
+        "label": "屏幕",
+        "emoji": "📺",
+        "id": "6044356915029348425",
+        "position": 275,
+        "keywords": "screen television video 视频"
+    },
+    "ios_6035353688619356485": {
+        "label": "窗口",
+        "emoji": "🪟",
+        "id": "6035353688619356485",
+        "position": 276,
+        "keywords": "window layout split 布局 分屏"
+    },
+    "ios_6033070647213560346": {
+        "label": "窗口",
+        "emoji": "🪟",
+        "id": "6033070647213560346",
+        "position": 277,
+        "keywords": "window layout split 布局 分屏"
+    },
+    "ios_6034834092065821141": {
+        "label": "窗口",
+        "emoji": "🪟",
+        "id": "6034834092065821141",
+        "position": 278,
+        "keywords": "window layout split 布局 分屏"
+    },
+    "ios_6043896193887506430": {
+        "label": "置顶",
+        "emoji": "📌",
+        "id": "6043896193887506430",
+        "position": 279,
+        "keywords": "pin pinned pushpin 图钉"
+    },
+    "ios_6043903233338904177": {
+        "label": "置顶",
+        "emoji": "📌",
+        "id": "6043903233338904177",
+        "position": 280,
+        "keywords": "pin pinned pushpin 图钉"
+    },
+    "ios_6041777576714702813": {
+        "label": "置顶",
+        "emoji": "📌",
+        "id": "6041777576714702813",
+        "position": 281,
+        "keywords": "pin pinned pushpin 图钉"
+    },
+    "ios_5776428312414917091": {
+        "label": "圆环",
+        "emoji": "⭕️",
+        "id": "5776428312414917091",
+        "position": 282,
+        "keywords": "ring circle shape"
+    },
+    "ios_5778226250149532337": {
+        "label": "特效",
+        "emoji": "✨",
+        "id": "5778226250149532337",
+        "position": 283,
+        "keywords": "sparkles effects magic 闪光"
+    },
+    "ios_5778647930038653243": {
+        "label": "特效",
+        "emoji": "✨",
+        "id": "5778647930038653243",
+        "position": 284,
+        "keywords": "sparkles effects magic 闪光"
+    },
+    "ios_5776138384942567185": {
+        "label": "附件",
+        "emoji": "📎",
+        "id": "5776138384942567185",
+        "position": 285,
+        "keywords": "attachment clip paperclip"
+    },
+    "ios_5778672437122045013": {
+        "label": "包裹",
+        "emoji": "📦",
+        "id": "5778672437122045013",
+        "position": 286,
+        "keywords": "package box archive 盒子"
+    },
+    "ios_5884479287171485878": {
+        "label": "包裹",
+        "emoji": "📦",
+        "id": "5884479287171485878",
+        "position": 287,
+        "keywords": "package box archive 盒子"
+    },
+    "ios_5775903948447682435": {
+        "label": "图片",
+        "emoji": "🖼",
+        "id": "5775903948447682435",
+        "position": 288,
+        "keywords": "image photo picture 相册 图文"
+    },
+    "ios_5769527287812723055": {
+        "label": "亮度",
+        "emoji": "☀️",
+        "id": "5769527287812723055",
+        "position": 289,
+        "keywords": "sun light brightness 太阳"
+    },
+    "ios_5769143090103193926": {
+        "label": "夜间",
+        "emoji": "🌙",
+        "id": "5769143090103193926",
+        "position": 290,
+        "keywords": "moon night dark 深色"
+    },
+    "ios_6048407885233263063": {
+        "label": "无限",
+        "emoji": "♾",
+        "id": "6048407885233263063",
+        "position": 291,
+        "keywords": "infinity loop 循环"
+    },
+    "ios_6044117517847236354": {
+        "label": "语音",
+        "emoji": "🎙",
+        "id": "6044117517847236354",
+        "position": 292,
+        "keywords": "microphone podcast voice 麦克风 播客"
+    },
+    "ios_6048723247501938454": {
+        "label": "无线网络",
+        "emoji": "🛜",
+        "id": "6048723247501938454",
+        "position": 293,
+        "keywords": "wifi wireless network 网络"
+    },
+    "ios_5884366771913233289": {
+        "label": "用户",
+        "emoji": "👤",
+        "id": "5884366771913233289",
+        "position": 294,
+        "keywords": "user profile contact account 个人 账号 联系人"
+    },
+    "ios_5927118708873892465": {
+        "label": "Telegram",
+        "emoji": "✈️",
+        "id": "5927118708873892465",
+        "position": 295,
+        "keywords": "telegram plane send 发送 飞机"
+    },
+    "ios_6050842281286570825": {
+        "label": "年龄限制",
+        "emoji": "🔞",
+        "id": "6050842281286570825",
+        "position": 296,
+        "keywords": "age restriction adult 18"
+    },
+    "ios_6050643982646513651": {
+        "label": "文件",
+        "emoji": "📄",
+        "id": "6050643982646513651",
+        "position": 297,
+        "keywords": "file document 文档"
+    },
+    "ios_5764638872000533034": {
+        "label": "快捷操作",
+        "emoji": "🔣",
+        "id": "5764638872000533034",
+        "position": 298,
+        "keywords": "command menu keyboard 菜单 快捷键"
+    },
+    "ios_5766975922620076409": {
+        "label": "相机",
+        "emoji": "📷",
+        "id": "5766975922620076409",
+        "position": 299,
+        "keywords": "camera photo photograph 拍照"
+    },
+    "ios_6050677620830376838": {
+        "label": "胶囊",
+        "emoji": "💊",
+        "id": "6050677620830376838",
+        "position": 300,
+        "keywords": "pill capsule"
+    },
+    "ios_5771847914477326786": {
+        "label": "编辑",
+        "emoji": "✏️",
+        "id": "5771847914477326786",
+        "position": 301,
+        "keywords": "edit pencil compose 铅笔"
+    },
+    "ios_6050632433479455053": {
+        "label": "水滴",
+        "emoji": "💧",
+        "id": "6050632433479455053",
+        "position": 302,
+        "keywords": "drop water opacity 透明度"
+    },
+    "ios_6050944866580435869": {
+        "label": "水滴",
+        "emoji": "💧",
+        "id": "6050944866580435869",
+        "position": 303,
+        "keywords": "drop water opacity 透明度"
+    },
+    "ios_5771798621137670637": {
+        "label": "蜡笔",
+        "emoji": "🖍",
+        "id": "5771798621137670637",
+        "position": 304,
+        "keywords": "crayon draw 绘画"
+    },
+    "ios_6050679691004612757": {
+        "label": "画笔",
+        "emoji": "🖌",
+        "id": "6050679691004612757",
+        "position": 305,
+        "keywords": "brush paint draw 绘画"
+    },
+    "ios_6050847684355428245": {
+        "label": "画笔",
+        "emoji": "🖌",
+        "id": "6050847684355428245",
+        "position": 306,
+        "keywords": "brush paint draw 绘画"
+    },
+    "ios_5811925731785052842": {
+        "label": "画笔",
+        "emoji": "🖌",
+        "id": "5811925731785052842",
+        "position": 307,
+        "keywords": "brush paint draw 绘画"
+    },
+    "ios_5811966564039135541": {
+        "label": "橡皮",
+        "emoji": "🧽",
+        "id": "5811966564039135541",
+        "position": 308,
+        "keywords": "eraser sponge clear 擦除"
+    },
+    "ios_5812150667812280629": {
+        "label": "隐藏",
+        "emoji": "🫥",
+        "id": "5812150667812280629",
+        "position": 309,
+        "keywords": "hidden invisible transparency 透明"
+    },
+    "ios_6021792097454002931": {
+        "label": "魔棒",
+        "emoji": "🪄",
+        "id": "6021792097454002931",
+        "position": 310,
+        "keywords": "magic wand effects 特效"
+    },
+    "ios_5769635757211784031": {
+        "label": "调色",
+        "emoji": "👩‍🎨",
+        "id": "5769635757211784031",
+        "position": 311,
+        "keywords": "artist color palette 绘画 颜色"
+    },
+    "ios_6050877727651664314": {
+        "label": "画笔",
+        "emoji": "🖌",
+        "id": "6050877727651664314",
+        "position": 312,
+        "keywords": "brush paint draw 绘画"
+    },
+    "ios_5767310088255576068": {
+        "label": "旋转",
+        "emoji": "🔃",
+        "id": "5767310088255576068",
+        "position": 313,
+        "keywords": "rotate refresh sync 同步"
+    },
+    "ios_5778432163766604235": {
+        "label": "返回",
+        "emoji": "↩️",
+        "id": "5778432163766604235",
+        "position": 314,
+        "keywords": "return reply back 回复"
+    },
+    "ios_5771851822897566479": {
+        "label": "文字",
+        "emoji": "🔡",
+        "id": "5771851822897566479",
+        "position": 315,
+        "keywords": "text letters font 字体"
+    },
+    "ios_5767262289564536912": {
+        "label": "文字",
+        "emoji": "🔡",
+        "id": "5767262289564536912",
+        "position": 316,
+        "keywords": "text letters font 字体"
+    },
+    "ios_6030710030108463274": {
+        "label": "字体",
+        "emoji": "🅰",
+        "id": "6030710030108463274",
+        "position": 317,
+        "keywords": "font text typography 文字"
+    },
+    "ios_6030437157951246585": {
+        "label": "字体",
+        "emoji": "🅰",
+        "id": "6030437157951246585",
+        "position": 318,
+        "keywords": "font text typography 文字"
+    },
+    "ios_6030764546128352351": {
+        "label": "字体",
+        "emoji": "🅰",
+        "id": "6030764546128352351",
+        "position": 319,
+        "keywords": "font text typography 文字"
+    },
+    "ios_6030474781864759622": {
+        "label": "字体",
+        "emoji": "🅰",
+        "id": "6030474781864759622",
+        "position": 320,
+        "keywords": "font text typography 文字"
+    },
+    "ios_5769500641835618919": {
+        "label": "发言",
+        "emoji": "🗣",
+        "id": "5769500641835618919",
+        "position": 321,
+        "keywords": "speak voice user 语音 用户"
+    },
+    "ios_5766919430915232878": {
+        "label": "发言",
+        "emoji": "🗣",
+        "id": "5766919430915232878",
+        "position": 322,
+        "keywords": "speak voice user 语音 用户"
+    },
+    "ios_5771880672192893347": {
+        "label": "剪切",
+        "emoji": "✂️",
+        "id": "5771880672192893347",
+        "position": 323,
+        "keywords": "cut scissors crop 裁剪"
+    },
+    "ios_5778299625370817409": {
+        "label": "笔记",
+        "emoji": "📝",
+        "id": "5778299625370817409",
+        "position": 324,
+        "keywords": "note compose message 编辑 消息"
+    },
+    "ios_5778479949572738874": {
+        "label": "双向箭头",
+        "emoji": "↔️",
+        "id": "5778479949572738874",
+        "position": 325,
+        "keywords": "arrow horizontal 左右 宽度"
+    },
+    "ios_5778593237925105705": {
+        "label": "双向箭头",
+        "emoji": "↔️",
+        "id": "5778593237925105705",
+        "position": 326,
+        "keywords": "arrow horizontal 左右 宽度"
+    },
+    "ios_5771603848665765302": {
+        "label": "图片",
+        "emoji": "🖼",
+        "id": "5771603848665765302",
+        "position": 327,
+        "keywords": "image photo picture 相册 图文"
+    },
+    "ios_5890840627658102916": {
+        "label": "图片",
+        "emoji": "🖼",
+        "id": "5890840627658102916",
+        "position": 328,
+        "keywords": "image photo picture 相册 图文"
+    },
+    "ios_5776253421346625666": {
+        "label": "图片",
+        "emoji": "🖼",
+        "id": "5776253421346625666",
+        "position": 329,
+        "keywords": "image photo picture 相册 图文"
+    },
+    "ios_5935913431801532272": {
+        "label": "趋势",
+        "emoji": "📈",
+        "id": "5935913431801532272",
+        "position": 332,
+        "keywords": "trend hot growth chart 热搜"
+    },
+    "ios_5776233299424843260": {
+        "label": "全球",
+        "emoji": "🌐",
+        "id": "5776233299424843260",
+        "position": 334,
+        "keywords": "globe internet world 网络"
+    },
+    "ios_5879814368572478751": {
+        "label": "支付",
+        "emoji": "🏧",
+        "id": "5879814368572478751",
+        "position": 335,
+        "keywords": "payment atm cash"
+    },
+    "ios_5778421276024509124": {
+        "label": "余额",
+        "emoji": "💰",
+        "id": "5778421276024509124",
+        "position": 336,
+        "keywords": "money balance cash 金额"
+    },
+    "ios_5778613750688911681": {
+        "label": "金币",
+        "emoji": "🪙",
+        "id": "5778613750688911681",
+        "position": 337,
+        "keywords": "coin token stars"
+    },
+    "ios_5776023601941582822": {
+        "label": "钻石",
+        "emoji": "💎",
+        "id": "5776023601941582822",
+        "position": 338,
+        "keywords": "diamond premium ton 会员"
+    },
+    "ios_6037083366438737901": {
+        "label": "钻石",
+        "emoji": "💎",
+        "id": "6037083366438737901",
+        "position": 339,
+        "keywords": "diamond premium ton 会员"
+    },
+    "ios_5891105528356018797": {
+        "label": "钻石",
+        "emoji": "💎",
+        "id": "5891105528356018797",
+        "position": 340,
+        "keywords": "diamond premium ton 会员"
+    },
+    "ios_6039859895291877126": {
+        "label": "钻石",
+        "emoji": "💎",
+        "id": "6039859895291877126",
+        "position": 341,
+        "keywords": "diamond premium ton 会员"
+    },
+    "ios_6039729023343400390": {
+        "label": "锤子",
+        "emoji": "🔨",
+        "id": "6039729023343400390",
+        "position": 342,
+        "keywords": "hammer auction tool 工具"
+    },
+    "ios_5904462880941545555": {
+        "label": "金币",
+        "emoji": "🪙",
+        "id": "5904462880941545555",
+        "position": 343,
+        "keywords": "coin token stars"
+    },
+    "ios_5890848474563352982": {
+        "label": "金币",
+        "emoji": "🪙",
+        "id": "5890848474563352982",
+        "position": 344,
+        "keywords": "coin token stars"
+    },
+    "ios_5902206159095339799": {
+        "label": "收益",
+        "emoji": "🤑",
+        "id": "5902206159095339799",
+        "position": 345,
+        "keywords": "income money earning"
+    },
+    "ios_5890974664997477030": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5890974664997477030",
+        "position": 347,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5890883384057533697": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5890883384057533697",
+        "position": 348,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5890727932011223292": {
+        "label": "标签",
+        "emoji": "🏷",
+        "id": "5890727932011223292",
+        "position": 349,
+        "keywords": "tag label price 价格"
+    },
+    "ios_5769403725898584391": {
+        "label": "字体",
+        "emoji": "🅰",
+        "id": "5769403725898584391",
+        "position": 350,
+        "keywords": "font text typography 文字"
+    },
+    "ios_5776118099812028333": {
+        "label": "设备",
+        "emoji": "📟",
+        "id": "5776118099812028333",
+        "position": 351,
+        "keywords": "device pager screen"
+    },
+    "ios_6050588788021793070": {
+        "label": "旋涡",
+        "emoji": "🌀",
+        "id": "6050588788021793070",
+        "position": 352,
+        "keywords": "swirl spiral loading 加载"
+    },
+    "ios_5771652845652677093": {
+        "label": "边框",
+        "emoji": "🔳",
+        "id": "5771652845652677093",
+        "position": 353,
+        "keywords": "frame square border"
+    },
+    "ios_5890937706803894250": {
+        "label": "日历",
+        "emoji": "📅",
+        "id": "5890937706803894250",
+        "position": 354,
+        "keywords": "calendar date schedule 日期"
+    },
+    "ios_5891100675042974129": {
+        "label": "日历",
+        "emoji": "📅",
+        "id": "5891100675042974129",
+        "position": 355,
+        "keywords": "calendar date schedule 日期"
+    },
+    "ios_5891211339170326418": {
+        "label": "沙漏",
+        "emoji": "⌛️",
+        "id": "5891211339170326418",
+        "position": 356,
+        "keywords": "hourglass time waiting 等待"
+    },
+    "ios_5769406891289481208": {
+        "label": "钻石",
+        "emoji": "💎",
+        "id": "5769406891289481208",
+        "position": 357,
+        "keywords": "diamond premium ton 会员"
+    },
+    "ios_5769126056262898415": {
+        "label": "钱包",
+        "emoji": "👛",
+        "id": "5769126056262898415",
+        "position": 358,
+        "keywords": "wallet purse payment 支付"
+    },
+    "ios_5904359114531675993": {
+        "label": "余额",
+        "emoji": "💰",
+        "id": "5904359114531675993",
+        "position": 359,
+        "keywords": "money balance cash 金额"
+    },
+    "ios_6030537810509828330": {
+        "label": "计时器",
+        "emoji": "⏲",
+        "id": "6030537810509828330",
+        "position": 360,
+        "keywords": "timer countdown time 倒计时"
+    },
+    "ios_6030839471832829491": {
+        "label": "确认",
+        "emoji": "✅",
+        "id": "6030839471832829491",
+        "position": 362,
+        "keywords": "check done success 完成 勾选"
+    },
+    "ios_5895669571058142797": {
+        "label": "新增",
+        "emoji": "🆕",
+        "id": "5895669571058142797",
+        "position": 363,
+        "keywords": "new badge"
+    },
+    "ios_5890925363067886150": {
+        "label": "特效",
+        "emoji": "✨",
+        "id": "5890925363067886150",
+        "position": 364,
+        "keywords": "sparkles effects magic 闪光"
+    },
+    "ios_5794164805065514131": {
+        "label": "数字 1",
+        "emoji": "1⃣",
+        "id": "5794164805065514131",
+        "position": 365,
+        "keywords": "number one"
+    },
+    "ios_5794085322400733645": {
+        "label": "数字 2",
+        "emoji": "2⃣",
+        "id": "5794085322400733645",
+        "position": 366,
+        "keywords": "number two"
+    },
+    "ios_5794280000383358988": {
+        "label": "数字 3",
+        "emoji": "3⃣",
+        "id": "5794280000383358988",
+        "position": 367,
+        "keywords": "number three"
+    },
+    "ios_5794241397217304511": {
+        "label": "数字 4",
+        "emoji": "4⃣",
+        "id": "5794241397217304511",
+        "position": 368,
+        "keywords": "number four"
+    },
+    "ios_5793985348446984682": {
+        "label": "数字 5",
+        "emoji": "5⃣",
+        "id": "5793985348446984682",
+        "position": 369,
+        "keywords": "number five"
+    },
+    "ios_5794324702402976226": {
+        "label": "数字 6",
+        "emoji": "6⃣",
+        "id": "5794324702402976226",
+        "position": 370,
+        "keywords": "number six"
+    },
+    "ios_5793942849745591465": {
+        "label": "数字 7",
+        "emoji": "7⃣",
+        "id": "5793942849745591465",
+        "position": 371,
+        "keywords": "number seven"
+    },
+    "ios_5793926687783655907": {
+        "label": "数字 8",
+        "emoji": "8⃣",
+        "id": "5793926687783655907",
+        "position": 372,
+        "keywords": "number eight"
+    },
+    "ios_5793979472931723221": {
+        "label": "数字 9",
+        "emoji": "9⃣",
+        "id": "5793979472931723221",
+        "position": 373,
+        "keywords": "number nine"
+    },
+    "ios_5794375786743995258": {
+        "label": "数字 1",
+        "emoji": "1⃣",
+        "id": "5794375786743995258",
+        "position": 374,
+        "keywords": "number one"
+    },
+    "ios_5793900634512039101": {
+        "label": "数字 2",
+        "emoji": "2⃣",
+        "id": "5793900634512039101",
+        "position": 375,
+        "keywords": "number two"
+    },
+    "ios_5793981487271386646": {
+        "label": "数字 3",
+        "emoji": "3⃣",
+        "id": "5793981487271386646",
+        "position": 376,
+        "keywords": "number three"
+    },
+    "ios_5794377032284510899": {
+        "label": "数字 4",
+        "emoji": "4⃣",
+        "id": "5794377032284510899",
+        "position": 377,
+        "keywords": "number four"
+    },
+    "ios_5794421072879164075": {
+        "label": "数字 5",
+        "emoji": "5⃣",
+        "id": "5794421072879164075",
+        "position": 378,
+        "keywords": "number five"
+    },
+    "ios_5794125282776456691": {
+        "label": "数字 6",
+        "emoji": "6⃣",
+        "id": "5794125282776456691",
+        "position": 379,
+        "keywords": "number six"
+    },
+    "ios_5793921538117868592": {
+        "label": "数字 7",
+        "emoji": "7⃣",
+        "id": "5793921538117868592",
+        "position": 380,
+        "keywords": "number seven"
+    },
+    "ios_5794030230855227946": {
+        "label": "数字 8",
+        "emoji": "8⃣",
+        "id": "5794030230855227946",
+        "position": 381,
+        "keywords": "number eight"
+    },
+    "ios_5793886611443817052": {
+        "label": "数字 9",
+        "emoji": "9⃣",
+        "id": "5793886611443817052",
+        "position": 382,
+        "keywords": "number nine"
+    },
+    "ios_5805553606635559688": {
+        "label": "皇冠",
+        "emoji": "👑",
+        "id": "5805553606635559688",
+        "position": 383,
+        "keywords": "crown premium owner 会员"
+    },
+    "ios_5805331990618053402": {
+        "label": "闪耀星标",
+        "emoji": "🌟",
+        "id": "5805331990618053402",
+        "position": 384,
+        "keywords": "star premium sparkle 会员"
+    },
+    "ios_5805550320985578625": {
+        "label": "文件夹",
+        "emoji": "📁",
+        "id": "5805550320985578625",
+        "position": 385,
+        "keywords": "folder category 分类"
+    },
+    "ios_5805648413743651862": {
+        "label": "文件夹",
+        "emoji": "📁",
+        "id": "5805648413743651862",
+        "position": 386,
+        "keywords": "folder category 分类"
+    },
+    "ios_5805506958995758422": {
+        "label": "文件夹",
+        "emoji": "📁",
+        "id": "5805506958995758422",
+        "position": 387,
+        "keywords": "folder category 分类"
+    },
+    "ios_5805382340519664323": {
+        "label": "文件夹",
+        "emoji": "📁",
+        "id": "5805382340519664323",
+        "position": 388,
+        "keywords": "folder category 分类"
+    },
+    "ios_5805298713211447980": {
+        "label": "礼物",
+        "emoji": "🎁",
+        "id": "5805298713211447980",
+        "position": 389,
+        "keywords": "gift present 赠送"
+    },
+    "ios_5837069325034331827": {
+        "label": "扩展",
+        "emoji": "🧩",
+        "id": "5837069325034331827",
+        "position": 390,
+        "keywords": "puzzle extension plugin 拼图 插件"
+    },
+    "ios_5836997023554870252": {
+        "label": "锤子",
+        "emoji": "🔨",
+        "id": "5836997023554870252",
+        "position": 391,
+        "keywords": "hammer auction tool 工具"
+    },
+    "ios_5836866396419530588": {
+        "label": "锤子",
+        "emoji": "🔨",
+        "id": "5836866396419530588",
+        "position": 392,
+        "keywords": "hammer auction tool 工具"
+    },
+    "ios_5836907383292436018": {
+        "label": "钻石",
+        "emoji": "💎",
+        "id": "5836907383292436018",
+        "position": 393,
+        "keywords": "diamond premium ton 会员"
+    },
+    "ios_5940660740758184142": {
+        "label": "特效",
+        "emoji": "✨",
+        "id": "5940660740758184142",
+        "position": 394,
+        "keywords": "sparkles effects magic 闪光"
+    },
+    "ios_6007983438294949171": {
+        "label": "钻石",
+        "emoji": "💎",
+        "id": "6007983438294949171",
+        "position": 395,
+        "keywords": "diamond premium ton 会员"
+    },
+    "ios_5935758241748230351": {
+        "label": "钻石",
+        "emoji": "💎",
+        "id": "5935758241748230351",
+        "position": 396,
+        "keywords": "diamond premium ton 会员"
+    },
+    "ios_5935831909027290613": {
+        "label": "书签",
+        "emoji": "🔖",
+        "id": "5935831909027290613",
+        "position": 397,
+        "keywords": "bookmark saved favorite 收藏"
+    },
+    "ios_5936088245560419529": {
+        "label": "闪电",
+        "emoji": "⚡️",
+        "id": "5936088245560419529",
+        "position": 398,
+        "keywords": "flash lightning boost 快速 加速"
+    },
+    "ios_5938252440926163756": {
+        "label": "确认",
+        "emoji": "✅",
+        "id": "5938252440926163756",
+        "position": 399,
+        "keywords": "check done success 完成 勾选"
+    }
+}

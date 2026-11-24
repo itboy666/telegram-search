@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS ts_recharge_proofs (
+ order_id BIGINT UNSIGNED PRIMARY KEY,
+ user_id BIGINT UNSIGNED NOT NULL,
+ bot_id BIGINT UNSIGNED NOT NULL,
+ image MEDIUMBLOB NOT NULL,
+ created_at DATETIME NOT NULL,
+ updated_at DATETIME NOT NULL,
+ KEY ix_recharge_proof_user(user_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
