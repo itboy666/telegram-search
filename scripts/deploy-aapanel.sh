@@ -4,8 +4,12 @@ umask 022
 
 PROJECT_ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
 RUNTIME_DIR="$PROJECT_ROOT/runtime"
+BINARY_DIR="$RUNTIME_DIR/bin"
 PUBLIC_BUILD="$PROJECT_ROOT/public/build"
 GO_BIN=${STARINDEX_GO:-go}
+if [ -z "${STARINDEX_GO:-}" ] && [ -x "$RUNTIME_DIR/toolchain/go/bin/go" ]; then
+  GO_BIN="$RUNTIME_DIR/toolchain/go/bin/go"
+fi
 
 for tool in "$GO_BIN" node pnpm flock; do
   command -v "$tool" >/dev/null 2>&1 || {
@@ -14,7 +18,7 @@ for tool in "$GO_BIN" node pnpm flock; do
   }
 done
 
-mkdir -p "$RUNTIME_DIR" "$PUBLIC_BUILD"
+mkdir -p "$BINARY_DIR" "$PUBLIC_BUILD"
 exec 9>"$RUNTIME_DIR/.aapanel-release.lock"
 flock -n 9 || { echo '另一个部署构建正在运行。' >&2; exit 1; }
 
@@ -41,8 +45,8 @@ test -x "$BINARY_STAGE/starindex"
 mkdir -p "$PUBLIC_BUILD/assets"
 # Publish hashed bundles before switching the HTML entry. Open pages can still load older bundles.
 mv -f "$FRONTEND_STAGE"/assets/* "$PUBLIC_BUILD/assets/"
-mv -f "$BINARY_STAGE/starindex" "$RUNTIME_DIR/starindex"
+mv -f "$BINARY_STAGE/starindex" "$BINARY_DIR/starindex"
 mv -f "$FRONTEND_STAGE/index.html" "$PUBLIC_BUILD/index.html"
 
-printf '发布完成：%s\n' "$RUNTIME_DIR/starindex"
+printf '发布完成：%s\n' "$BINARY_DIR/starindex"
 echo '请在宝塔 Go 项目中启动或重启服务。'

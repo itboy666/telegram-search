@@ -16,11 +16,11 @@ sh scripts/deploy-aapanel.sh
 
 | 面板字段 | 值 |
 | --- | --- |
-| 项目执行文件 | `/home/website/idcsobot/runtime/starindex` |
+| 项目执行文件 | `/home/website/idcsobot/runtime/bin/starindex` |
 | 项目名称 | `idcsobot` |
 | 项目端口 | `8088` |
-| 执行命令 | `/home/website/idcsobot/runtime/starindex all --root /home/website/idcsobot --addr 127.0.0.1:8088` |
-| 运行用户 | 有权访问项目目录、读取站点配置并写入项目目录和 `runtime` 的服务账户，例如 `www` |
+| 执行命令 | `/bin/sh /home/website/idcsobot/scripts/start-aapanel.sh idcsobot 127.0.0.1:8088` |
+| 运行用户 | `root` 用于启动脚本，该脚本将 Go 进程切换至站点专用账户 `idcsobot` |
 | 开机启动 | 开启 |
 | 放行端口 | 关闭 |
 | 绑定域名 | `idcso.iid.hk`，开启外网映射和 HTTPS |
@@ -50,7 +50,7 @@ curl -fsS https://idcso.iid.hk/healthz
 涉及数据库结构的版本，先备份数据库和服务器密钥。部署并重启后，用超级管理员登录「系统设置 → 数据库升级」，查看待升级项并执行升级。也可以使用有权读取服务配置的账户在终端运行以下命令。
 
 ```sh
-/home/website/idcsobot/runtime/starindex migrate --root /home/website/idcsobot
+/home/website/idcsobot/runtime/bin/starindex migrate --root /home/website/idcsobot
 ```
 
 服务器配置和密钥集中保存在项目目录的 `.env`、`.bot-token.key`、`.commerce.key`，随数据库一并独立备份。
