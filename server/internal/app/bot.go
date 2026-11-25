@@ -66,16 +66,16 @@ func (a *App) handleUpdate(ctx context.Context, u, bot Row) error {
 	}
 	command, arg := "", text
 	if strings.HasPrefix(text, "/") {
-		parts := strings.SplitN(text, " ", 2)
-		head := strings.SplitN(strings.TrimPrefix(parts[0], "/"), "@", 2)
+		boundary := strings.IndexFunc(text, unicode.IsSpace)
+		if boundary < 0 {
+			boundary = len(text)
+		}
+		head := strings.SplitN(strings.TrimPrefix(text[:boundary], "/"), "@", 2)
 		if len(head) > 1 && !strings.EqualFold(head[1], str(bot["username"])) {
 			return nil
 		}
 		command = strings.ToLower(head[0])
-		arg = ""
-		if len(parts) > 1 {
-			arg = strings.TrimSpace(parts[1])
-		}
+		arg = strings.TrimSpace(text[boundary:])
 		if command == "submit" {
 			command = "add"
 		}
@@ -151,17 +151,22 @@ func (a *App) handleUpdate(ctx context.Context, u, bot Row) error {
 				return a.sendText(ctx, chatID, "请私聊机器人发送 /add 链接 提交收录。", replyContext(m))
 			}
 			if arg == "" {
-				return a.botPanelText(ctx, chatID, "发送 /add https://t.me/username\n系统会自动获取标题并提交后台审核，无需输入其他内容。", nil)
+				return a.botPanelText(ctx, chatID, botAddHelp, nil)
 			}
 			user, e := a.telegramUser(from)
 			if e != nil {
 				return e
 			}
-			row, e := a.submitTelegram(ctx, integer(user["id"]), strings.TrimSpace(strings.SplitN(arg, "|", 2)[0]))
+			link, _, _ := strings.Cut(arg, "|")
+			row, e := a.submitTelegram(ctx, integer(user["id"]), link)
 			if e != nil {
 				return e
 			}
-			return a.botRecordText(ctx, botID, chatID, "已自动获取标题："+str(row["title"])+"\n\n收录申请 #"+str(row["id"])+" 已提交，请等待审核。", replyContext(m))
+			receipt := "收录申请 #" + str(row["id"]) + " 已提交，待审核。\n" + str(row["title"]) + "\n\n在「我的 → 我的提交记录」查看进度。"
+			if _, invite := telegramInviteURL(link); invite {
+				return a.botRecordText(ctx, botID, chatID, receipt+"\n通过审核后，邀请链接可出现在公开搜索中。", nil)
+			}
+			return a.botRecordText(ctx, botID, chatID, receipt, replyContext(m))
 		case "search":
 			if arg == "" {
 				if chatID > 0 {
@@ -653,7 +658,7 @@ func (a *App) menuCallback(ctx context.Context, cb Row) error {
 	body := botPrivateHelp
 	switch action {
 	case "submit":
-		body = "发送 /add https://t.me/username\n系统自动获取标题并提交审核。"
+		body = botAddHelp
 	case "message":
 		body = str(button["value"])
 	case "hot":

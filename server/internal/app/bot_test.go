@@ -71,6 +71,7 @@ func TestTelegramMetadataIsolation(t *testing.T) {
 	}{
 		{`<meta property="og:title" content="公开频道"><div class="tgme_page_title">标题</div><div class="tgme_page_extra">100 subscribers</div>`, "https://t.me/testchannel", "公开频道", "channel", true},
 		{`<div class="tgme_page_title">开发群</div><div class="tgme_page_extra">30 members</div>`, "https://t.me/testgroup", "开发群", "group", true},
+		{`<div class="tgme_page_title">受邀开发群</div><div class="tgme_page_extra">1 member</div>`, "https://t.me/+Invite_1234", "受邀开发群", "group", true},
 		{`<div class="tgme_widget_message" data-post="testchannel/5"><div class="tgme_widget_message_video_player"></div><div class="tgme_widget_message_text">视频标题</div></div>`, "https://t.me/testchannel/5", "视频标题", "video", true},
 		{`<div class="tgme_widget_message" data-post="other/5"><div class="tgme_widget_message_text">不属于请求的帖子</div></div>`, "https://t.me/testchannel/5", "", "", false},
 		{`<title>Telegram Contact</title>`, "https://t.me/privateuser", "", "", false},

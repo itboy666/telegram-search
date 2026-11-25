@@ -287,7 +287,7 @@ func (a *App) botCommerceAction(ctx context.Context, s, p Row, action string) er
 		// the wallet without creating a credential; /login remains explicit.
 		s["state"] = "home"
 	default:
-		for _, section := range []string{"ledger", "recharges", "orders", "slots"} {
+		for _, section := range []string{"ledger", "recharges", "orders", "slots", "submissions"} {
 			if strings.HasPrefix(action, section) && integer(strings.TrimPrefix(action, section)) > 0 {
 				page := integer(strings.TrimPrefix(action, section))
 				if page < 1 || page > 10000 {

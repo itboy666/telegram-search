@@ -75,7 +75,8 @@ func parseTelegramMetadata(body, link string) (Row, error) {
 	bad := func() (Row, error) {
 		return nil, &DomainError{Status: 422, Message: "无法获取该链接的公开标题，请确认链接有效且内容可公开访问。"}
 	}
-	if strings.Contains(path, "/") {
+	_, invite := telegramInviteURL(link)
+	if !invite && strings.Contains(path, "/") {
 		n := findNode(doc, func(n *html.Node) bool {
 			return nodeClass(n, "tgme_widget_message") && strings.EqualFold(nodeAttr(n, "data-post"), path)
 		})
@@ -115,11 +116,11 @@ func parseTelegramMetadata(body, link string) (Row, error) {
 		desc = nodeText(classNode(doc, "tgme_page_description"))
 		extra := strings.ToLower(nodeText(classNode(doc, "tgme_page_extra")))
 		switch {
-		case strings.Contains(body, "tgme_action_bot") || strings.Contains(body, `data-bot`) || strings.Contains(body, "Send Message") && strings.HasSuffix(strings.ToLower(path), "bot"):
+		case !invite && (strings.Contains(body, "tgme_action_bot") || strings.Contains(body, `data-bot`) || strings.Contains(body, "Send Message") && strings.HasSuffix(strings.ToLower(path), "bot")):
 			kind = "bot"
-		case strings.Contains(extra, "subscribers"):
+		case strings.Contains(extra, "subscriber"):
 			kind = "channel"
-		case strings.Contains(extra, "members"):
+		case strings.Contains(extra, "member"):
 			kind = "group"
 		}
 	}
@@ -132,6 +133,9 @@ func (a *App) submitTelegram(ctx context.Context, userID int64, raw string) (Row
 	link, e := NormalizeResourceURL(raw, "other")
 	if e != nil {
 		return nil, e
+	}
+	if str(a.Settings()["submissions_enabled"]) != "1" {
+		return nil, catalogErr(403, "暂未开放资源提交，请稍后再来。")
 	}
 	u, e := one(a.DB, "SELECT * FROM ts_users WHERE id=?", userID)
 	if e != nil {
@@ -152,12 +156,27 @@ func (a *App) submitTelegram(ctx context.Context, userID int64, raw string) (Row
 			return nil, &DomainError{Status: 409, Message: catalogDuplicateMessage(r, table == "submissions")}
 		}
 	}
-	path := strings.TrimPrefix(link, "https://t.me")
-	if strings.Count(path, "/") == 2 {
-		link += "?embed=1&mode=tme"
+	_, invite := telegramInviteURL(link)
+	meta, e := a.fetchTelegramMetadata(ctx, link)
+	if e != nil {
+		if !invite || ctx.Err() != nil {
+			return nil, e
+		}
+		meta = Row{"title": "Telegram 私人邀请", "type": "other", "url": link}
+	}
+	return a.Submit(userID, meta)
+}
+
+func (a *App) fetchTelegramMetadata(ctx context.Context, link string) (Row, error) {
+	preview := link
+	if strings.Count(strings.TrimPrefix(link, "https://t.me"), "/") == 2 {
+		preview += "?embed=1&mode=tme"
 	}
 	client := &http.Client{Timeout: 8 * time.Second, CheckRedirect: func(_ *http.Request, _ []*http.Request) error { return http.ErrUseLastResponse }}
-	req, e := http.NewRequestWithContext(ctx, "GET", link, nil)
+	if a.HTTP != nil {
+		client.Transport = a.HTTP.Transport
+	}
+	req, e := http.NewRequestWithContext(ctx, "GET", preview, nil)
 	if e != nil {
 		return nil, e
 	}
@@ -174,10 +193,5 @@ func (a *App) submitTelegram(ctx context.Context, userID int64, raw string) (Row
 	if e != nil {
 		return nil, e
 	}
-	link = strings.SplitN(link, "?", 2)[0]
-	meta, e := parseTelegramMetadata(string(b), link)
-	if e != nil {
-		return nil, e
-	}
-	return a.Submit(userID, meta)
+	return parseTelegramMetadata(string(b), link)
 }

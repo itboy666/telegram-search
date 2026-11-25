@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"slices"
+	"strings"
 )
 
 func botCommerceStatus(status string) string {
@@ -67,7 +68,8 @@ func (a *App) botCommerceView(s Row) (string, [][]Row, error) {
 		rows = append(rows,
 			[]Row{button("充值余额", "recharge", "plus"), button("购买广告", "slots", "star")},
 			[]Row{button("充值订单", "recharges1", "clock"), button("我的广告", "orders1", "star")},
-			[]Row{button("资金明细", "ledger1", "clock"), button("刷新余额", "refresh", "refresh")})
+			[]Row{button("资金明细", "ledger1", "clock"), button("刷新余额", "refresh", "refresh")},
+			[]Row{button("我的提交记录", "submissions1", "file")})
 		if len(ad) > 0 {
 			rows = append(rows, []Row{button("继续广告草稿", "resume", "edit"), button("清除草稿", "cancel", "close")})
 		}
@@ -219,7 +221,7 @@ func (a *App) botCommerceView(s Row) (string, [][]Row, error) {
 			text += "\n\n审核说明：" + escape(str(order["review_note"]))
 		}
 		rows = append(rows, []Row{button("刷新状态", "refresh", "refresh"), button("全部广告订单", "orders1", "clock")})
-	case "ledger", "recharges", "orders":
+	case "ledger", "recharges", "orders", "submissions":
 		var e error
 		text, rows, e = a.botCommerceList(s, state)
 		if e != nil {
@@ -240,7 +242,7 @@ func (a *App) botCommerceView(s Row) (string, [][]Row, error) {
 func (a *App) botCommerceList(s Row, section string) (string, [][]Row, error) {
 	p := decode(str(s["payload"]))
 	page := catalogLimit(p["page"], 1, 1, 10000)
-	table := map[string]string{"slots": "ad_slots", "ledger": "wallet_entries", "recharges": "recharges", "orders": "ad_orders"}[section]
+	table := map[string]string{"slots": "ad_slots", "ledger": "wallet_entries", "recharges": "recharges", "orders": "ad_orders", "submissions": "submissions"}[section]
 	where, args := " WHERE user_id=?", []any{s["user_id"]}
 	if section == "slots" {
 		where, args = " WHERE enabled=1", nil
@@ -260,10 +262,13 @@ func (a *App) botCommerceList(s Row, section string) (string, [][]Row, error) {
 	if err != nil {
 		return "", nil, err
 	}
-	name := map[string]string{"slots": "可购买的广告位", "ledger": "资金明细", "recharges": "我的充值订单", "orders": "我的广告订单"}[section]
+	name := map[string]string{"slots": "可购买的广告位", "ledger": "资金明细", "recharges": "我的充值订单", "orders": "我的广告订单", "submissions": "我的提交记录"}[section]
 	text := a.iconHTML("clock") + " <b>" + name + "</b>\n\n"
 	rows := [][]Row{}
 	if len(items) == 0 {
+		if section == "submissions" {
+			return text + "还没有提交记录。\n发送 <code>/add 链接</code> 提交收录。", rows, nil
+		}
 		text += "暂无记录。"
 	}
 	for _, r := range items {
@@ -284,6 +289,8 @@ func (a *App) botCommerceList(s Row, section string) (string, [][]Row, error) {
 		case "orders":
 			text += "#" + id + " <b>" + escape(clip(str(r["title"]), 60)) + "</b>\n" + FormatMoney(integer(r["price"])) + " USDT · " + botCommerceStatus(str(r["status"])) + "\n" + str(r["created_at"]) + "\n\n"
 			rows = append(rows, []Row{a.botCommerceButton(s, "查看广告 #"+id, "adid"+id, "star")})
+		case "submissions":
+			text += botSubmissionSummary(r)
 		}
 	}
 	text += fmt.Sprintf("\n第 %d / %d 页 · 共 %d 条", page, pages, total)
@@ -298,4 +305,28 @@ func (a *App) botCommerceList(s Row, section string) (string, [][]Row, error) {
 		rows = append(rows, pagination)
 	}
 	return text, rows, nil
+}
+
+func botSubmissionSummary(record Row) string {
+	status := str(record["status"])
+	label := map[string]string{"pending": "待审核", "approved": "已通过", "rejected": "已拒绝"}[status]
+	if label == "" {
+		label = "状态待确认"
+	}
+	name := strings.Join(strings.Fields(str(record["title"])), " ")
+	note := strings.Join(strings.Fields(str(record["review_note"])), " ")
+	if invite, private := telegramInviteURL(str(record["url"])); private {
+		const privateLabel = "私人邀请链接"
+		code := strings.TrimPrefix(invite, "https://t.me/+")
+		redact := strings.NewReplacer(str(record["url"]), privateLabel, invite, privateLabel, code, "[邀请码已隐藏]")
+		name, note = redact.Replace(name), redact.Replace(note)
+		if name == "" {
+			name = privateLabel
+		}
+	}
+	text := "#" + str(record["id"]) + " <b>" + escape(clip(name, 55)) + "</b> · " + label + "\n" + str(record["created_at"])
+	if status == "rejected" && note != "" {
+		text += "\n拒绝原因：" + escape(clip(note, 120))
+	}
+	return text + "\n\n"
 }

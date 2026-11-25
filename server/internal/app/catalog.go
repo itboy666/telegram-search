@@ -258,6 +258,48 @@ func (a *App) RateLimit(bucket string, limit, seconds int) error {
 var telegramPath = regexp.MustCompile(`^/(?:s/)?([A-Za-z0-9_]{4,32})(?:/([0-9]+))?/?$`)
 var userNamePattern = regexp.MustCompile(`^[A-Za-z0-9_]{4,32}$`)
 var publicHostPattern = regexp.MustCompile(`^[a-z0-9](?:[a-z0-9.-]*[a-z0-9])?$`)
+var telegramInvitePath = regexp.MustCompile(`^/(?:\+|(?i:joinchat)/)([A-Za-z0-9_-]{8,128})/?$`)
+var telegramInviteCode = regexp.MustCompile(`^[A-Za-z0-9_-]{8,128}$`)
+
+func telegramLinkURL(raw string) (*url.URL, bool) {
+	s := strings.TrimSpace(raw)
+	lower := strings.ToLower(s)
+	for _, prefix := range []string{"t.me/", "telegram.me/", "www.t.me/", "www.telegram.me/"} {
+		if strings.HasPrefix(lower, prefix) {
+			s = "https://" + s
+			break
+		}
+	}
+	u, err := url.Parse(s)
+	if err != nil || u.User != nil || u.Port() != "" || (u.Scheme != "https" && u.Scheme != "http") {
+		return nil, false
+	}
+	switch strings.ToLower(u.Host) {
+	case "t.me", "www.t.me", "telegram.me", "www.telegram.me":
+		return u, true
+	default:
+		return nil, false
+	}
+}
+
+// Invite codes are case-sensitive. Canonicalize legacy and native links to
+// one HTTPS URL so they share the same moderation and duplicate checks.
+func telegramInviteURL(raw string) (string, bool) {
+	var code string
+	if u, ok := telegramLinkURL(raw); ok {
+		if match := telegramInvitePath.FindStringSubmatch(u.EscapedPath()); match != nil {
+			code = match[1]
+		}
+	} else if u, err := url.Parse(strings.TrimSpace(raw)); err == nil && u.Scheme == "tg" && u.Host == "join" && u.User == nil && u.Path == "" {
+		if params, err := url.ParseQuery(u.RawQuery); err == nil && len(params["invite"]) == 1 {
+			code = params.Get("invite")
+		}
+	}
+	if !telegramInviteCode.MatchString(code) || strings.Trim(code, "0123456789") == "" {
+		return "", false
+	}
+	return "https://t.me/+" + code, true
+}
 
 func catalogValidEscapes(value string) bool {
 	hex := func(c byte) bool { return c >= '0' && c <= '9' || c >= 'a' && c <= 'f' || c >= 'A' && c <= 'F' }
@@ -274,24 +316,21 @@ func catalogValidEscapes(value string) bool {
 
 func NormalizeResourceURL(raw, kind string) (string, error) {
 	s := strings.TrimSpace(raw)
-	bad := catalogErr(422, "请填写有效的公开 Telegram 链接，例如 https://t.me/telegram。")
+	bad := catalogErr(422, "请填写有效的 Telegram 用户名、公开链接或群组／频道邀请链接。")
 	if kind != "website" {
+		if invite, ok := telegramInviteURL(s); ok {
+			switch kind {
+			case "", "group", "channel", "other":
+				return invite, nil
+			default:
+				return "", catalogErr(422, "邀请链接的类型请选择群组、频道或其他。")
+			}
+		}
 		if strings.HasPrefix(s, "@") && userNamePattern.MatchString(s[1:]) {
 			s = "https://t.me/" + s[1:]
 		}
-		lower := strings.ToLower(s)
-		for _, prefix := range []string{"t.me/", "telegram.me/", "www.t.me/", "www.telegram.me/"} {
-			if strings.HasPrefix(lower, prefix) {
-				s = "https://" + s
-				break
-			}
-		}
-		u, err := url.Parse(s)
-		if err != nil || u.User != nil || u.Port() != "" || (u.Scheme != "https" && u.Scheme != "http") {
-			return "", bad
-		}
-		host := strings.ToLower(u.Hostname())
-		if host != "t.me" && host != "www.t.me" && host != "telegram.me" && host != "www.telegram.me" {
+		u, ok := telegramLinkURL(s)
+		if !ok {
 			return "", bad
 		}
 		match := telegramPath.FindStringSubmatch(u.EscapedPath())

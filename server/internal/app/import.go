@@ -147,9 +147,10 @@ func (a *App) ImportResources(ctx context.Context, path, source string, apply bo
 			entry["reason"] = "记录必须是对象。"
 			continue
 		}
-		if importInvitePattern.MatchString(strings.TrimSpace(str(row["url"]))) {
+		_, invite := telegramInviteURL(str(row["url"]))
+		if invite || importInvitePattern.MatchString(strings.TrimSpace(str(row["url"]))) {
 			entry["status"] = "unsupported_invite"
-			entry["reason"] = "当前资源库仅收录公开链接。"
+			entry["reason"] = "邀请链接请使用收录申请，由管理员审核。"
 			continue
 		}
 		if row["type"] == nil {

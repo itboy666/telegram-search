@@ -12,6 +12,11 @@ func TestNormalizeResourceURL(t *testing.T) {
 		{"http://telegram.me/ExampleBot?start=abc", "bot", "https://t.me/examplebot"},
 		{"https://t.me/s/TestChannel/0012/?single", "video", "https://t.me/testchannel/12"},
 		{"www.t.me/Telegram/", "channel", "https://t.me/telegram"},
+		{"@idc118", "other", "https://t.me/idc118"},
+		{"https://t.me/IDC118", "other", "https://t.me/idc118"},
+		{"https://t.me/+AbCd_125-x", "channel", "https://t.me/+AbCd_125-x"},
+		{"http://telegram.me/joinchat/AbCd_125-x/?x=1", "group", "https://t.me/+AbCd_125-x"},
+		{"tg://join?invite=AbCd_125-x", "other", "https://t.me/+AbCd_125-x"},
 		{"https://EXAMPLE.com:443/a?x=1&b=2#part", "website", "https://example.com/a?x=1&b=2"},
 		{"http://example.com:80", "website", "http://example.com/"},
 		{"https://例子.中国", "website", "https://xn--fsqu00a.xn--fiqs8s/"},
@@ -26,6 +31,8 @@ func TestNormalizeResourceURL(t *testing.T) {
 	}
 	invalid := []struct{ input, kind string }{
 		{"https://t.me/+secret", "channel"}, {"https://t.me/joinchat/secret", "channel"}, {"https://t.me/login", "channel"},
+		{"https://t.me/+12345678901", "group"}, {"https://t.me/+AbCd_125-x", "video"},
+		{"tg://join?invite=AbCd_125-x&invite=XyZa_125-x", "other"}, {"https://t.me.example/+AbCd_125-x", "group"},
 		{"https://t.me/name/0", "channel"}, {"https://t.me/name/000", "channel"}, {"https://t.me/name/123456789012345678901", "channel"},
 		{"https://evil.test/name", "channel"}, {"https://user:pass@t.me/name", "channel"}, {"https://t.me:443/name", "channel"}, {"https://t.me/name/1/more", "channel"},
 		{"https://t.me/telegram", "website"}, {"file:///etc/passwd", "website"}, {"javascript:alert(1)", "website"}, {"http://localhost", "website"},

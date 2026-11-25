@@ -43,7 +43,7 @@ func botCommandMenus() []botCommandMenu {
 		{"start", "打开主菜单"},
 		{"search", "搜索群组与频道"},
 		{"discover", "发现群组与频道"},
-		{"add", "提交链接自动获取标题"},
+		{"add", "提交公开链接或私人邀请"},
 		{"account", "我的账户"},
 		{"wallet", "钱包账单与继续填写"},
 		{"recharge", "充值余额"},
@@ -104,6 +104,8 @@ func (a *App) syncBotCommands(ctx context.Context) error {
 	return nil
 }
 
-const botPrivateHelp = "发送关键词或 /search 关键词 搜索群组和频道，点击「帖子」查看相关帖子。\n/discover 发现群组和频道\n/add 链接 自动获取标题并申请收录\n/account 我的账户\n/wallet 余额、账单与继续填写\n/recharge 充值余额\n/ads 购买广告位\n/cancel 退出当前填写（不撤销已创建订单）\n/login 获取网站登录码（可选）\n/start 返回主菜单\n\n充值和广告购买可直接在当前私聊完成。结果按钮仅限搜索者本人操作，有效期 2 小时。"
+const botAddHelp = "提交 Telegram 资源\n\n发送 /add @用户名 或 /add https://t.me/用户名。\n私人群组和频道也可用 /add 后加完整邀请链接，支持 t.me/+… 和 t.me/joinchat/…。\n\n提交后由管理员审核。审核通过的链接可在公开搜索中找到，请提交你有权分享的邀请。"
+
+const botPrivateHelp = "发送关键词或 /search 关键词 搜索群组和频道，点击「帖子」查看相关帖子。\n/discover 发现群组和频道\n/add @用户名或链接 申请收录，也支持私人邀请\n/account 我的账户与提交记录\n/wallet 余额、账单与继续填写\n/recharge 充值余额\n/ads 购买广告位\n/cancel 退出当前填写（不撤销已创建订单）\n/login 获取网站登录码（可选）\n/start 返回主菜单\n\n充值和广告购买可直接在当前私聊完成。结果按钮仅限搜索者本人操作，有效期 2 小时。"
 
 const botGroupHelp = "直接发送关键词，例如：服务器，即可搜索群组和频道，无需 @机器人。\n/search 关键词 搜索群组和频道\n/discover 发现群组和频道\n/help 群内搜索帮助\n\n点击「帖子」查看相关帖子，翻页和筛选仅限发起搜索的人操作，有效期 2 小时。结果会回复对应关键词消息。"
